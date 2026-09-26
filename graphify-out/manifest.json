@@ -1,0 +1,202 @@
+{
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\vite.config.mjs": {
+    "mtime": 1790430643.585769,
+    "hash": "4f457f05d5b97c0f9c8f6706514f28d9"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\main.js": {
+    "mtime": 1790430642.6616294,
+    "hash": "4dbc7d064b6fdf078bef8ab71f1d018a"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\metadata.js": {
+    "mtime": 1790428315.5293598,
+    "hash": "c08ef38cd119cbcc6291d38ff5fd7b0d"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\metadata.test.js": {
+    "mtime": 1790428319.2751162,
+    "hash": "e72734b3c6deb60402287809b3db5d8d"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\preload.js": {
+    "mtime": 1790428248.2287517,
+    "hash": "0bf5c7454ba866a9920ac0d90dce5939"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\store.js": {
+    "mtime": 1790428331.3081858,
+    "hash": "4a2f3db1ea4fee4fe84742c6f96bb3ee"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\streamServer.js": {
+    "mtime": 1790428264.3026495,
+    "hash": "8ae97d546c34790ebe60341c2573bf71"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\torrentManager.js": {
+    "mtime": 1790428465.6767423,
+    "hash": "03ea3d8075ed79508ea4a973a4b62e94"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\transcodeServer.js": {
+    "mtime": 1790430950.5406778,
+    "hash": "9118d4ba92d8afe8c8ca92ebb6837b08"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\main.tsx": {
+    "mtime": 1790430093.1760244,
+    "hash": "e9be4ba15e4dae0bc84a584ee08280e6"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\types.ts": {
+    "mtime": 1790430091.3490062,
+    "hash": "06f3be6e829e56b56fd74f834ab3c245"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\vite-env.d.ts": {
+    "mtime": 1790430091.8291018,
+    "hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\ambient-backdrop.tsx": {
+    "mtime": 1790430132.167065,
+    "hash": "efab8a0d445e1a088b4bbb5076e9d2d9"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\library-nav.ts": {
+    "mtime": 1790424904.0,
+    "hash": "d7a10983ce2ed9f57ef55518e1f79b05"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\media-card.tsx": {
+    "mtime": 1790430144.6490507,
+    "hash": "fae781df5eef90a227eb1b8b691f4a0b"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\media-grid.tsx": {
+    "mtime": 1790430153.6879296,
+    "hash": "4cc5cd74f0f4fafcb681a3ebf42f1109"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\mobile-nav.tsx": {
+    "mtime": 1790424904.0,
+    "hash": "2aa4e2f50e5e9f30a1d64d4e1142418f"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\now-playing-details.tsx": {
+    "mtime": 1790430168.5971036,
+    "hash": "31473b1a91a8de7e95ac47ff593b96a6"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\settings-panel.tsx": {
+    "mtime": 1790430175.7226648,
+    "hash": "019f94572433009ce6cb33802587962c"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\sidebar.tsx": {
+    "mtime": 1790430129.8528273,
+    "hash": "90ac6339454406feaa780256b24994c2"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\streaming-app.tsx": {
+    "mtime": 1790430384.762791,
+    "hash": "e9e6da1664f9933c281b508b7c8f6087"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\top-bar.tsx": {
+    "mtime": 1790430328.3581972,
+    "hash": "a47e64b1b2dae8dc514747a47b259553"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\track-slider.tsx": {
+    "mtime": 1790424904.0,
+    "hash": "0b28ca4f78f0db61f3873ca6043331cb"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\video-player.tsx": {
+    "mtime": 1790430357.5282178,
+    "hash": "3d5152d00969db37e274f802ff845d89"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\ui\\button.tsx": {
+    "mtime": 1790424904.0,
+    "hash": "63cfaae37f8d5e0fa4451635ccc521b4"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\hooks\\useTorrentApi.ts": {
+    "mtime": 1790430107.0923028,
+    "hash": "1de157adabd9b4fd18f3228deae6de27"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\assets.ts": {
+    "mtime": 1790430081.0173929,
+    "hash": "14ac842aab911fe7629bfb24b4b94499"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\films.ts": {
+    "mtime": 1790430083.6546407,
+    "hash": "de9b63e05b6bb24fde7305918373352a"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\format.ts": {
+    "mtime": 1790430079.6490593,
+    "hash": "278184485a6505b9f34dfa9c8b2c86ff"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\utils.ts": {
+    "mtime": 1790424904.0,
+    "hash": "9a4cc6f9f3155ffdc1fa7c2c097f6429"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron-builder.yml": {
+    "mtime": 1790428237.2296138,
+    "hash": "e9cce4c034310fa391a8d3c77c9c7f41"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\index.html": {
+    "mtime": 1790428239.3364265,
+    "hash": "b33f7b8c6eaee98db47b58ba9d3e4f85"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\pnpm-workspace.yaml": {
+    "mtime": 1790430541.540186,
+    "hash": "b2c6c1b21db6dd095320bd4cd9bc1919"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\apple-icon.png": {
+    "mtime": 1790424904.0,
+    "hash": "734ce6c878789fcd5843e8a7963e0756"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\icon-dark-32x32.png": {
+    "mtime": 1790424904.0,
+    "hash": "abd5ebe9e287ca0a89f4fd3da2b5cf9c"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\icon-light-32x32.png": {
+    "mtime": 1790424904.0,
+    "hash": "53426c910bcab7d3e5213cc64aa1b2c5"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\icon.svg": {
+    "mtime": 1790424904.0,
+    "hash": "6e5d88c5f7e97d26ac4ad47e703bf9de"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\placeholder-logo.png": {
+    "mtime": 1790424904.0,
+    "hash": "95d8d1a4a9bbcccc875e2c381e74064a"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\placeholder-logo.svg": {
+    "mtime": 1790424904.0,
+    "hash": "1e16dc7df824652c5906a2ab44aef78c"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\placeholder-user.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "7ee6562646feae6d6d77e2c72e204591"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\placeholder.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "1e533b7b4545d1d605144ce893afc601"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\placeholder.svg": {
+    "mtime": 1790424904.0,
+    "hash": "35707bd9960ba5281c72af927b79291f"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\big-buck-bunny.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "f661b7d65739e637325b87c9f8588999"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\cosmos-laundromat.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "37e3fd922f1263c738d24affa3022eeb"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\elephants-dream.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "77a9de13f9c9e3e1201b7cdedd886297"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\gran-dillama.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "d208de775ab9d2c02b1eb2a59683d2c5"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\llamigos.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "d63db74dc4b57737675d8837dd3d478e"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\sintel.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "5aab023c3803a21b51383f45c247c3f7"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\spring.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "3f145051dbc729f60b7b078c1fb22304"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\posters\\tears-of-steel.jpg": {
+    "mtime": 1790424904.0,
+    "hash": "606f3df00bd3b4d255a772d00c10542c"
+  }
+}

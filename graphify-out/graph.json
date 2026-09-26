@@ -1,0 +1,3173 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "vite.config.mjs",
+      "file_type": "code",
+      "source_file": "vite.config.mjs",
+      "source_location": "L1",
+      "id": "vite_config_mjs",
+      "community": 8,
+      "norm_label": "vite.config.mjs"
+    },
+    {
+      "label": "main.js",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L1",
+      "id": "electron_main_js",
+      "community": 5,
+      "norm_label": "main.js"
+    },
+    {
+      "label": "loadEnvFile()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L15",
+      "id": "electron_main_loadenvfile",
+      "community": 5,
+      "norm_label": "loadenvfile()"
+    },
+    {
+      "label": "cacheDir()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L38",
+      "id": "electron_main_cachedir",
+      "community": 5,
+      "norm_label": "cachedir()"
+    },
+    {
+      "label": "tmdbKey()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L45",
+      "id": "electron_main_tmdbkey",
+      "community": 5,
+      "norm_label": "tmdbkey()"
+    },
+    {
+      "label": "isInside()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L49",
+      "id": "electron_main_isinside",
+      "community": 5,
+      "norm_label": "isinside()"
+    },
+    {
+      "label": "send()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L55",
+      "id": "electron_main_send",
+      "community": 5,
+      "norm_label": "send()"
+    },
+    {
+      "label": "toResult()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L60",
+      "id": "electron_main_toresult",
+      "community": 5,
+      "norm_label": "toresult()"
+    },
+    {
+      "label": "buildEntry()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L73",
+      "id": "electron_main_buildentry",
+      "community": 5,
+      "norm_label": "buildentry()"
+    },
+    {
+      "label": "registerIpc()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L96",
+      "id": "electron_main_registeripc",
+      "community": 5,
+      "norm_label": "registeripc()"
+    },
+    {
+      "label": "saveProgress()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L179",
+      "id": "electron_main_saveprogress",
+      "community": 5,
+      "norm_label": "saveprogress()"
+    },
+    {
+      "label": "createWindow()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L189",
+      "id": "electron_main_createwindow",
+      "community": 5,
+      "norm_label": "createwindow()"
+    },
+    {
+      "label": "shutdown()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L235",
+      "id": "electron_main_shutdown",
+      "community": 5,
+      "norm_label": "shutdown()"
+    },
+    {
+      "label": "metadata.js",
+      "file_type": "code",
+      "source_file": "electron/metadata.js",
+      "source_location": "L1",
+      "id": "electron_metadata_js",
+      "community": 5,
+      "norm_label": "metadata.js"
+    },
+    {
+      "label": "parseTitleYear()",
+      "file_type": "code",
+      "source_file": "electron/metadata.js",
+      "source_location": "L4",
+      "id": "electron_metadata_parsetitleyear",
+      "community": 5,
+      "norm_label": "parsetitleyear()"
+    },
+    {
+      "label": "tagsFor()",
+      "file_type": "code",
+      "source_file": "electron/metadata.js",
+      "source_location": "L24",
+      "id": "electron_metadata_tagsfor",
+      "community": 5,
+      "norm_label": "tagsfor()"
+    },
+    {
+      "label": "lookupMovie()",
+      "file_type": "code",
+      "source_file": "electron/metadata.js",
+      "source_location": "L35",
+      "id": "electron_metadata_lookupmovie",
+      "community": 5,
+      "norm_label": "lookupmovie()"
+    },
+    {
+      "label": "metadata.test.js",
+      "file_type": "code",
+      "source_file": "electron/metadata.test.js",
+      "source_location": "L1",
+      "id": "electron_metadata_test_js",
+      "community": 9,
+      "norm_label": "metadata.test.js"
+    },
+    {
+      "label": "preload.js",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L1",
+      "id": "electron_preload_js",
+      "community": 2,
+      "norm_label": "preload.js"
+    },
+    {
+      "label": "subscribe()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L3",
+      "id": "electron_preload_subscribe",
+      "community": 2,
+      "norm_label": "subscribe()"
+    },
+    {
+      "label": "addTorrent()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L10",
+      "id": "electron_preload_addtorrent",
+      "community": 4,
+      "norm_label": "addtorrent()"
+    },
+    {
+      "label": "selectFile()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L13",
+      "id": "electron_preload_selectfile",
+      "community": 2,
+      "norm_label": "selectfile()"
+    },
+    {
+      "label": "removeTorrent()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L16",
+      "id": "electron_preload_removetorrent",
+      "community": 2,
+      "norm_label": "removetorrent()"
+    },
+    {
+      "label": "pickTorrentFile()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L19",
+      "id": "electron_preload_picktorrentfile",
+      "community": 2,
+      "norm_label": "picktorrentfile()"
+    },
+    {
+      "label": "getPathForFile()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L22",
+      "id": "electron_preload_getpathforfile",
+      "community": 2,
+      "norm_label": "getpathforfile()"
+    },
+    {
+      "label": "getLibrary()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L29",
+      "id": "electron_preload_getlibrary",
+      "community": 2,
+      "norm_label": "getlibrary()"
+    },
+    {
+      "label": "upsertLibrary()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L32",
+      "id": "electron_preload_upsertlibrary",
+      "community": 2,
+      "norm_label": "upsertlibrary()"
+    },
+    {
+      "label": "removeLibraryEntry()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L35",
+      "id": "electron_preload_removelibraryentry",
+      "community": 2,
+      "norm_label": "removelibraryentry()"
+    },
+    {
+      "label": "getWatchlist()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L38",
+      "id": "electron_preload_getwatchlist",
+      "community": 2,
+      "norm_label": "getwatchlist()"
+    },
+    {
+      "label": "toggleWatchlist()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L41",
+      "id": "electron_preload_togglewatchlist",
+      "community": 2,
+      "norm_label": "togglewatchlist()"
+    },
+    {
+      "label": "getSettings()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L44",
+      "id": "electron_preload_getsettings",
+      "community": 2,
+      "norm_label": "getsettings()"
+    },
+    {
+      "label": "updateSettings()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L47",
+      "id": "electron_preload_updatesettings",
+      "community": 2,
+      "norm_label": "updatesettings()"
+    },
+    {
+      "label": "saveProgress()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L50",
+      "id": "electron_preload_saveprogress",
+      "community": 2,
+      "norm_label": "saveprogress()"
+    },
+    {
+      "label": "flushProgress()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L53",
+      "id": "electron_preload_flushprogress",
+      "community": 2,
+      "norm_label": "flushprogress()"
+    },
+    {
+      "label": "onStats()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L56",
+      "id": "electron_preload_onstats",
+      "community": 2,
+      "norm_label": "onstats()"
+    },
+    {
+      "label": "onTorrentError()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L59",
+      "id": "electron_preload_ontorrenterror",
+      "community": 2,
+      "norm_label": "ontorrenterror()"
+    },
+    {
+      "label": "store.js",
+      "file_type": "code",
+      "source_file": "electron/store.js",
+      "source_location": "L1",
+      "id": "electron_store_js",
+      "community": 7,
+      "norm_label": "store.js"
+    },
+    {
+      "label": "isHexHash()",
+      "file_type": "code",
+      "source_file": "electron/store.js",
+      "source_location": "L21",
+      "id": "electron_store_ishexhash",
+      "community": 7,
+      "norm_label": "ishexhash()"
+    },
+    {
+      "label": "createStore()",
+      "file_type": "code",
+      "source_file": "electron/store.js",
+      "source_location": "L25",
+      "id": "electron_store_createstore",
+      "community": 7,
+      "norm_label": "createstore()"
+    },
+    {
+      "label": "streamServer.js",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L1",
+      "id": "electron_streamserver_js",
+      "community": 6,
+      "norm_label": "streamserver.js"
+    },
+    {
+      "label": "extensionOf()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L23",
+      "id": "electron_streamserver_extensionof",
+      "community": 6,
+      "norm_label": "extensionof()"
+    },
+    {
+      "label": "isVideoFile()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L29",
+      "id": "electron_streamserver_isvideofile",
+      "community": 6,
+      "norm_label": "isvideofile()"
+    },
+    {
+      "label": "listVideoFiles()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L35",
+      "id": "electron_streamserver_listvideofiles",
+      "community": 6,
+      "norm_label": "listvideofiles()"
+    },
+    {
+      "label": "chooseVideoFiles()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L51",
+      "id": "electron_streamserver_choosevideofiles",
+      "community": 6,
+      "norm_label": "choosevideofiles()"
+    },
+    {
+      "label": "pieceRange()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L71",
+      "id": "electron_streamserver_piecerange",
+      "community": 6,
+      "norm_label": "piecerange()"
+    },
+    {
+      "label": "deselectRange()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L81",
+      "id": "electron_streamserver_deselectrange",
+      "community": 6,
+      "norm_label": "deselectrange()"
+    },
+    {
+      "label": "prioritizePlayback()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L94",
+      "id": "electron_streamserver_prioritizeplayback",
+      "community": 6,
+      "norm_label": "prioritizeplayback()"
+    },
+    {
+      "label": "DirectServer",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L117",
+      "id": "electron_streamserver_directserver",
+      "community": 6,
+      "norm_label": "directserver"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L118",
+      "id": "electron_streamserver_directserver_constructor",
+      "community": 6,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".ensure()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L122",
+      "id": "electron_streamserver_directserver_ensure",
+      "community": 6,
+      "norm_label": ".ensure()"
+    },
+    {
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L151",
+      "id": "electron_streamserver_directserver_close",
+      "community": 6,
+      "norm_label": ".close()"
+    },
+    {
+      "label": ".closeAll()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L160",
+      "id": "electron_streamserver_directserver_closeall",
+      "community": 6,
+      "norm_label": ".closeall()"
+    },
+    {
+      "label": "directStreamUrl()",
+      "file_type": "code",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L165",
+      "id": "electron_streamserver_directstreamurl",
+      "community": 6,
+      "norm_label": "directstreamurl()"
+    },
+    {
+      "label": "torrentManager.js",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L1",
+      "id": "electron_torrentmanager_js",
+      "community": 3,
+      "norm_label": "torrentmanager.js"
+    },
+    {
+      "label": "appError()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L19",
+      "id": "electron_torrentmanager_apperror",
+      "community": 3,
+      "norm_label": "apperror()"
+    },
+    {
+      "label": "classifyInput()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L25",
+      "id": "electron_torrentmanager_classifyinput",
+      "community": 3,
+      "norm_label": "classifyinput()"
+    },
+    {
+      "label": "cacheFolder()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L58",
+      "id": "electron_torrentmanager_cachefolder",
+      "community": 3,
+      "norm_label": "cachefolder()"
+    },
+    {
+      "label": "TorrentManager",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L62",
+      "id": "electron_torrentmanager_torrentmanager",
+      "community": 3,
+      "norm_label": "torrentmanager"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L63",
+      "id": "electron_torrentmanager_torrentmanager_constructor",
+      "community": 3,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".add()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L89",
+      "id": "electron_torrentmanager_torrentmanager_add",
+      "community": 3,
+      "norm_label": ".add()"
+    },
+    {
+      "label": "._whenReady()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L144",
+      "id": "electron_torrentmanager_torrentmanager_whenready",
+      "community": 3,
+      "norm_label": "._whenready()"
+    },
+    {
+      "label": ".selectFile()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L170",
+      "id": "electron_torrentmanager_torrentmanager_selectfile",
+      "community": 3,
+      "norm_label": ".selectfile()"
+    },
+    {
+      "label": ".remove()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L203",
+      "id": "electron_torrentmanager_torrentmanager_remove",
+      "community": 3,
+      "norm_label": ".remove()"
+    },
+    {
+      "label": ".has()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L215",
+      "id": "electron_torrentmanager_torrentmanager_has",
+      "community": 3,
+      "norm_label": ".has()"
+    },
+    {
+      "label": ".shutdown()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L219",
+      "id": "electron_torrentmanager_torrentmanager_shutdown",
+      "community": 3,
+      "norm_label": ".shutdown()"
+    },
+    {
+      "label": "._existing()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L253",
+      "id": "electron_torrentmanager_torrentmanager_existing",
+      "community": 3,
+      "norm_label": "._existing()"
+    },
+    {
+      "label": "._summary()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L261",
+      "id": "electron_torrentmanager_torrentmanager_summary",
+      "community": 3,
+      "norm_label": "._summary()"
+    },
+    {
+      "label": "._focus()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L273",
+      "id": "electron_torrentmanager_torrentmanager_focus",
+      "community": 3,
+      "norm_label": "._focus()"
+    },
+    {
+      "label": "._pause()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L280",
+      "id": "electron_torrentmanager_torrentmanager_pause",
+      "community": 3,
+      "norm_label": "._pause()"
+    },
+    {
+      "label": "._broadcastStats()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L299",
+      "id": "electron_torrentmanager_torrentmanager_broadcaststats",
+      "community": 3,
+      "norm_label": "._broadcaststats()"
+    },
+    {
+      "label": "._normalizeError()",
+      "file_type": "code",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L333",
+      "id": "electron_torrentmanager_torrentmanager_normalizeerror",
+      "community": 3,
+      "norm_label": "._normalizeerror()"
+    },
+    {
+      "label": "transcodeServer.js",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L1",
+      "id": "electron_transcodeserver_js",
+      "community": 1,
+      "norm_label": "transcodeserver.js"
+    },
+    {
+      "label": "appError()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L9",
+      "id": "electron_transcodeserver_apperror",
+      "community": 1,
+      "norm_label": "apperror()"
+    },
+    {
+      "label": "binaryPath()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L15",
+      "id": "electron_transcodeserver_binarypath",
+      "community": 1,
+      "norm_label": "binarypath()"
+    },
+    {
+      "label": "getFfmpeg()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L34",
+      "id": "electron_transcodeserver_getffmpeg",
+      "community": 1,
+      "norm_label": "getffmpeg()"
+    },
+    {
+      "label": "asNodeStream()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L50",
+      "id": "electron_transcodeserver_asnodestream",
+      "community": 1,
+      "norm_label": "asnodestream()"
+    },
+    {
+      "label": "readSample()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L71",
+      "id": "electron_transcodeserver_readsample",
+      "community": 1,
+      "norm_label": "readsample()"
+    },
+    {
+      "label": "classify()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L130",
+      "id": "electron_transcodeserver_classify",
+      "community": 1,
+      "norm_label": "classify()"
+    },
+    {
+      "label": "probeWithFfprobe()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L162",
+      "id": "electron_transcodeserver_probewithffprobe",
+      "community": 1,
+      "norm_label": "probewithffprobe()"
+    },
+    {
+      "label": "probeFile()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L172",
+      "id": "electron_transcodeserver_probefile",
+      "community": 1,
+      "norm_label": "probefile()"
+    },
+    {
+      "label": "isLocalAddress()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L193",
+      "id": "electron_transcodeserver_islocaladdress",
+      "community": 1,
+      "norm_label": "islocaladdress()"
+    },
+    {
+      "label": "ignoredFfmpegError()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L201",
+      "id": "electron_transcodeserver_ignoredffmpegerror",
+      "community": 1,
+      "norm_label": "ignoredffmpegerror()"
+    },
+    {
+      "label": "TranscodeServer",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L208",
+      "id": "electron_transcodeserver_transcodeserver",
+      "community": 1,
+      "norm_label": "transcodeserver"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L209",
+      "id": "electron_transcodeserver_transcodeserver_constructor",
+      "community": 1,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".ensure()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L218",
+      "id": "electron_transcodeserver_transcodeserver_ensure",
+      "community": 1,
+      "norm_label": ".ensure()"
+    },
+    {
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L235",
+      "id": "electron_transcodeserver_transcodeserver_register",
+      "community": 1,
+      "norm_label": ".register()"
+    },
+    {
+      "label": ".unregister()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L239",
+      "id": "electron_transcodeserver_transcodeserver_unregister",
+      "community": 1,
+      "norm_label": ".unregister()"
+    },
+    {
+      "label": ".streamUrl()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L248",
+      "id": "electron_transcodeserver_transcodeserver_streamurl",
+      "community": 1,
+      "norm_label": ".streamurl()"
+    },
+    {
+      "label": ".killAll()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L257",
+      "id": "electron_transcodeserver_transcodeserver_killall",
+      "community": 1,
+      "norm_label": ".killall()"
+    },
+    {
+      "label": "._stop()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L267",
+      "id": "electron_transcodeserver_transcodeserver_stop",
+      "community": 1,
+      "norm_label": "._stop()"
+    },
+    {
+      "label": "._handle()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L278",
+      "id": "electron_transcodeserver_transcodeserver_handle",
+      "community": 1,
+      "norm_label": "._handle()"
+    },
+    {
+      "label": "._spawn()",
+      "file_type": "code",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L354",
+      "id": "electron_transcodeserver_transcodeserver_spawn",
+      "community": 1,
+      "norm_label": "._spawn()"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "id": "src_main_tsx",
+      "community": 10,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "src/types.ts",
+      "source_location": "L1",
+      "id": "src_types_ts",
+      "community": 11,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "src/vite-env.d.ts",
+      "source_location": "L1",
+      "id": "src_vite_env_d_ts",
+      "community": 12,
+      "norm_label": "vite-env.d.ts"
+    },
+    {
+      "label": "ambient-backdrop.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/ambient-backdrop.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_ambient_backdrop_tsx",
+      "community": 0,
+      "norm_label": "ambient-backdrop.tsx"
+    },
+    {
+      "label": "AmbientBackdrop()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/ambient-backdrop.tsx",
+      "source_location": "L4",
+      "id": "streaming_ambient_backdrop_ambientbackdrop",
+      "community": 0,
+      "norm_label": "ambientbackdrop()"
+    },
+    {
+      "label": "library-nav.ts",
+      "file_type": "code",
+      "source_file": "src/components/streaming/library-nav.ts",
+      "source_location": "L1",
+      "id": "src_components_streaming_library_nav_ts",
+      "community": 4,
+      "norm_label": "library-nav.ts"
+    },
+    {
+      "label": "matchesFilter()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/library-nav.ts",
+      "source_location": "L23",
+      "id": "streaming_library_nav_matchesfilter",
+      "community": 4,
+      "norm_label": "matchesfilter()"
+    },
+    {
+      "label": "media-card.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/media-card.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_media_card_tsx",
+      "community": 0,
+      "norm_label": "media-card.tsx"
+    },
+    {
+      "label": "media-grid.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/media-grid.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_media_grid_tsx",
+      "community": 0,
+      "norm_label": "media-grid.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/media-grid.tsx",
+      "source_location": "L56",
+      "id": "streaming_media_grid_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "mobile-nav.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/mobile-nav.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_mobile_nav_tsx",
+      "community": 0,
+      "norm_label": "mobile-nav.tsx"
+    },
+    {
+      "label": "MobileNav()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/mobile-nav.tsx",
+      "source_location": "L9",
+      "id": "streaming_mobile_nav_mobilenav",
+      "community": 0,
+      "norm_label": "mobilenav()"
+    },
+    {
+      "label": "now-playing-details.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/now-playing-details.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_now_playing_details_tsx",
+      "community": 0,
+      "norm_label": "now-playing-details.tsx"
+    },
+    {
+      "label": "share()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/now-playing-details.tsx",
+      "source_location": "L33",
+      "id": "streaming_now_playing_details_share",
+      "community": 0,
+      "norm_label": "share()"
+    },
+    {
+      "label": "settings-panel.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/settings-panel.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_settings_panel_tsx",
+      "community": 4,
+      "norm_label": "settings-panel.tsx"
+    },
+    {
+      "label": "SettingsPanel()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/settings-panel.tsx",
+      "source_location": "L9",
+      "id": "streaming_settings_panel_settingspanel",
+      "community": 4,
+      "norm_label": "settingspanel()"
+    },
+    {
+      "label": "sidebar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/sidebar.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_sidebar_tsx",
+      "community": 0,
+      "norm_label": "sidebar.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/sidebar.tsx",
+      "source_location": "L42",
+      "id": "streaming_sidebar_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "streaming-app.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_streaming_app_tsx",
+      "community": 4,
+      "norm_label": "streaming-app.tsx"
+    },
+    {
+      "label": "flush()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L133",
+      "id": "streaming_streaming_app_flush",
+      "community": 2,
+      "norm_label": "flush()"
+    },
+    {
+      "label": "onDragOver()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L152",
+      "id": "streaming_streaming_app_ondragover",
+      "community": 4,
+      "norm_label": "ondragover()"
+    },
+    {
+      "label": "onDragLeave()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L157",
+      "id": "streaming_streaming_app_ondragleave",
+      "community": 4,
+      "norm_label": "ondragleave()"
+    },
+    {
+      "label": "onDrop()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L160",
+      "id": "streaming_streaming_app_ondrop",
+      "community": 2,
+      "norm_label": "ondrop()"
+    },
+    {
+      "label": "begin()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L192",
+      "id": "streaming_streaming_app_begin",
+      "community": 4,
+      "norm_label": "begin()"
+    },
+    {
+      "label": "playFile()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L230",
+      "id": "streaming_streaming_app_playfile",
+      "community": 4,
+      "norm_label": "playfile()"
+    },
+    {
+      "label": "playSaved()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L263",
+      "id": "streaming_streaming_app_playsaved",
+      "community": 4,
+      "norm_label": "playsaved()"
+    },
+    {
+      "label": "removeCurrent()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L269",
+      "id": "streaming_streaming_app_removecurrent",
+      "community": 4,
+      "norm_label": "removecurrent()"
+    },
+    {
+      "label": "top-bar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/top-bar.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_top_bar_tsx",
+      "community": 4,
+      "norm_label": "top-bar.tsx"
+    },
+    {
+      "label": "TopBar()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/top-bar.tsx",
+      "source_location": "L11",
+      "id": "streaming_top_bar_topbar",
+      "community": 4,
+      "norm_label": "topbar()"
+    },
+    {
+      "label": "track-slider.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/track-slider.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_track_slider_tsx",
+      "community": 0,
+      "norm_label": "track-slider.tsx"
+    },
+    {
+      "label": "video-player.tsx",
+      "file_type": "code",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L1",
+      "id": "src_components_streaming_video_player_tsx",
+      "community": 0,
+      "norm_label": "video-player.tsx"
+    },
+    {
+      "label": "withSeek()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L82",
+      "id": "streaming_video_player_withseek",
+      "community": 0,
+      "norm_label": "withseek()"
+    },
+    {
+      "label": "VideoPlayer()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L88",
+      "id": "streaming_video_player_videoplayer",
+      "community": 0,
+      "norm_label": "videoplayer()"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L301",
+      "id": "streaming_video_player_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_button_tsx",
+      "community": 0,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L52",
+      "id": "ui_button_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "useTorrentApi.ts",
+      "file_type": "code",
+      "source_file": "src/hooks/useTorrentApi.ts",
+      "source_location": "L1",
+      "id": "src_hooks_usetorrentapi_ts",
+      "community": 4,
+      "norm_label": "usetorrentapi.ts"
+    },
+    {
+      "label": "useTorrentApi()",
+      "file_type": "code",
+      "source_file": "src/hooks/useTorrentApi.ts",
+      "source_location": "L16",
+      "id": "hooks_usetorrentapi_usetorrentapi",
+      "community": 4,
+      "norm_label": "usetorrentapi()"
+    },
+    {
+      "label": "assets.ts",
+      "file_type": "code",
+      "source_file": "src/lib/assets.ts",
+      "source_location": "L1",
+      "id": "src_lib_assets_ts",
+      "community": 0,
+      "norm_label": "assets.ts"
+    },
+    {
+      "label": "mediaUrl()",
+      "file_type": "code",
+      "source_file": "src/lib/assets.ts",
+      "source_location": "L1",
+      "id": "lib_assets_mediaurl",
+      "community": 0,
+      "norm_label": "mediaurl()"
+    },
+    {
+      "label": "films.ts",
+      "file_type": "code",
+      "source_file": "src/lib/films.ts",
+      "source_location": "L1",
+      "id": "src_lib_films_ts",
+      "community": 4,
+      "norm_label": "films.ts"
+    },
+    {
+      "label": "toFilm()",
+      "file_type": "code",
+      "source_file": "src/lib/films.ts",
+      "source_location": "L22",
+      "id": "lib_films_tofilm",
+      "community": 4,
+      "norm_label": "tofilm()"
+    },
+    {
+      "label": "format.ts",
+      "file_type": "code",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L1",
+      "id": "src_lib_format_ts",
+      "community": 0,
+      "norm_label": "format.ts"
+    },
+    {
+      "label": "formatTime()",
+      "file_type": "code",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L1",
+      "id": "lib_format_formattime",
+      "community": 0,
+      "norm_label": "formattime()"
+    },
+    {
+      "label": "formatRuntime()",
+      "file_type": "code",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L11",
+      "id": "lib_format_formatruntime",
+      "community": 0,
+      "norm_label": "formatruntime()"
+    },
+    {
+      "label": "formatBytes()",
+      "file_type": "code",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L16",
+      "id": "lib_format_formatbytes",
+      "community": 0,
+      "norm_label": "formatbytes()"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L1",
+      "id": "src_lib_utils_ts",
+      "community": 0,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "id": "lib_utils_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_loadenvfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_cachedir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_tmdbkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_isinside",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_send",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_toresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_buildentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_registeripc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_saveprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_createwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L235",
+      "weight": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_shutdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "electron_main_buildentry",
+      "target": "electron_main_tmdbkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/main.js",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "electron_main_buildentry",
+      "target": "electron_metadata_parsetitleyear"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/main.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "electron_main_buildentry",
+      "target": "electron_metadata_lookupmovie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/metadata.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "electron_metadata_js",
+      "target": "electron_metadata_parsetitleyear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/metadata.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "electron_metadata_js",
+      "target": "electron_metadata_tagsfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/metadata.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "electron_metadata_js",
+      "target": "electron_metadata_lookupmovie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/metadata.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "electron_metadata_lookupmovie",
+      "target": "electron_metadata_tagsfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_subscribe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_addtorrent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_selectfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_removetorrent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_picktorrentfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_getpathforfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_getlibrary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_upsertlibrary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_removelibraryentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_getwatchlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_togglewatchlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_getsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_updatesettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_saveprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_flushprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_onstats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_ontorrenterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "electron_preload_onstats",
+      "target": "electron_preload_subscribe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "electron_preload_ontorrenterror",
+      "target": "electron_preload_subscribe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "streaming_streaming_app_begin",
+      "target": "electron_preload_addtorrent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "streaming_streaming_app_ondrop",
+      "target": "electron_preload_getpathforfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "streaming_streaming_app_flush",
+      "target": "electron_preload_flushprogress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/store.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "electron_store_js",
+      "target": "electron_store_ishexhash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/store.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "electron_store_js",
+      "target": "electron_store_createstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_extensionof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_isvideofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_listvideofiles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_choosevideofiles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_piecerange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_deselectrange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_prioritizeplayback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_directserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "electron_streamserver_js",
+      "target": "electron_streamserver_directstreamurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "electron_streamserver_isvideofile",
+      "target": "electron_streamserver_extensionof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "electron_streamserver_choosevideofiles",
+      "target": "electron_streamserver_listvideofiles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_summary",
+      "target": "electron_streamserver_choosevideofiles"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "electron_streamserver_prioritizeplayback",
+      "target": "electron_streamserver_piecerange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "electron_streamserver_prioritizeplayback",
+      "target": "electron_streamserver_deselectrange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_selectfile",
+      "target": "electron_streamserver_prioritizeplayback"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "electron_streamserver_directserver",
+      "target": "electron_streamserver_directserver_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "electron_streamserver_directserver",
+      "target": "electron_streamserver_directserver_ensure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "electron_streamserver_directserver",
+      "target": "electron_streamserver_directserver_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "electron_streamserver_directserver",
+      "target": "electron_streamserver_directserver_closeall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/streamServer.js",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "electron_streamserver_directserver_closeall",
+      "target": "electron_streamserver_directserver_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_selectfile",
+      "target": "electron_streamserver_directstreamurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_js",
+      "target": "electron_torrentmanager_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_js",
+      "target": "electron_torrentmanager_classifyinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_js",
+      "target": "electron_torrentmanager_cachefolder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_js",
+      "target": "electron_torrentmanager_torrentmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_classifyinput",
+      "target": "electron_torrentmanager_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_selectfile",
+      "target": "electron_torrentmanager_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L336",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_normalizeerror",
+      "target": "electron_torrentmanager_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_add",
+      "target": "electron_torrentmanager_classifyinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L268",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_summary",
+      "target": "electron_torrentmanager_cachefolder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_whenready",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_selectfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_remove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_has",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_shutdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_existing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L273",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_focus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_pause",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_broadcaststats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager",
+      "target": "electron_torrentmanager_torrentmanager_normalizeerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_add",
+      "target": "electron_torrentmanager_torrentmanager_existing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_add",
+      "target": "electron_torrentmanager_torrentmanager_whenready",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L324",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_broadcaststats",
+      "target": "electron_torrentmanager_torrentmanager_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_whenready",
+      "target": "electron_torrentmanager_torrentmanager_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_selectfile",
+      "target": "electron_torrentmanager_torrentmanager_focus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_selectfile",
+      "target": "electron_transcodeserver_probefile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L262",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_summary",
+      "target": "electron_torrentmanager_torrentmanager_has",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_broadcaststats",
+      "target": "electron_torrentmanager_torrentmanager_has",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/torrentManager.js",
+      "source_location": "L276",
+      "weight": 1.0,
+      "source": "electron_torrentmanager_torrentmanager_focus",
+      "target": "electron_torrentmanager_torrentmanager_pause",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_binarypath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_getffmpeg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_asnodestream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_readsample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_classify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_probewithffprobe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_probefile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_islocaladdress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_ignoredffmpegerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_js",
+      "target": "electron_transcodeserver_transcodeserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_getffmpeg",
+      "target": "electron_transcodeserver_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_readsample",
+      "target": "electron_transcodeserver_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_getffmpeg",
+      "target": "electron_transcodeserver_binarypath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_probewithffprobe",
+      "target": "electron_transcodeserver_getffmpeg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L355",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_spawn",
+      "target": "electron_transcodeserver_getffmpeg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_readsample",
+      "target": "electron_transcodeserver_asnodestream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L356",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_spawn",
+      "target": "electron_transcodeserver_asnodestream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_probefile",
+      "target": "electron_transcodeserver_readsample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_probefile",
+      "target": "electron_transcodeserver_classify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_probefile",
+      "target": "electron_transcodeserver_probewithffprobe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L279",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_handle",
+      "target": "electron_transcodeserver_islocaladdress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_ensure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L235",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_unregister",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L248",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_streamurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_killall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_stop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_handle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L354",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver",
+      "target": "electron_transcodeserver_transcodeserver_spawn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_unregister",
+      "target": "electron_transcodeserver_transcodeserver_stop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_killall",
+      "target": "electron_transcodeserver_transcodeserver_stop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L329",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_handle",
+      "target": "electron_transcodeserver_transcodeserver_stop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/transcodeServer.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "source": "electron_transcodeserver_transcodeserver_handle",
+      "target": "electron_transcodeserver_transcodeserver_spawn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/ambient-backdrop.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_streaming_ambient_backdrop_tsx",
+      "target": "lib_assets_mediaurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/ambient-backdrop.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_streaming_ambient_backdrop_tsx",
+      "target": "streaming_ambient_backdrop_ambientbackdrop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_ambient_backdrop_ambientbackdrop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/library-nav.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_components_streaming_library_nav_ts",
+      "target": "streaming_library_nav_matchesfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_library_nav_matchesfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/media-card.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_streaming_media_card_tsx",
+      "target": "lib_assets_mediaurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/media-card.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_streaming_media_card_tsx",
+      "target": "lib_format_formatruntime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/media-card.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_streaming_media_card_tsx",
+      "target": "lib_format_formattime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/media-card.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_streaming_media_card_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/media-grid.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_streaming_media_grid_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/media-grid.tsx",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "src_components_streaming_media_grid_tsx",
+      "target": "streaming_media_grid_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/mobile-nav.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_streaming_mobile_nav_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/mobile-nav.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_components_streaming_mobile_nav_tsx",
+      "target": "streaming_mobile_nav_mobilenav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_mobile_nav_mobilenav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/now-playing-details.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_streaming_now_playing_details_tsx",
+      "target": "lib_assets_mediaurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/now-playing-details.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_streaming_now_playing_details_tsx",
+      "target": "lib_format_formatruntime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/now-playing-details.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_streaming_now_playing_details_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/now-playing-details.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_components_streaming_now_playing_details_tsx",
+      "target": "streaming_now_playing_details_share",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/settings-panel.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_components_streaming_settings_panel_tsx",
+      "target": "streaming_settings_panel_settingspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_settings_panel_settingspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/sidebar.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_streaming_sidebar_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/sidebar.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_components_streaming_sidebar_tsx",
+      "target": "streaming_sidebar_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "hooks_usetorrentapi_usetorrentapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "lib_films_tofilm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_top_bar_topbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_video_player_videoplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_flush",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_ondragover",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_ondragleave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_ondrop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_begin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_playfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_playsaved",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L269",
+      "weight": 1.0,
+      "source": "src_components_streaming_streaming_app_tsx",
+      "target": "streaming_streaming_app_removecurrent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "streaming_streaming_app_begin",
+      "target": "streaming_streaming_app_playfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/streaming-app.tsx",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "streaming_streaming_app_playsaved",
+      "target": "streaming_streaming_app_begin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/top-bar.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_components_streaming_top_bar_tsx",
+      "target": "streaming_top_bar_topbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/track-slider.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_streaming_track_slider_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "lib_assets_mediaurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "lib_format_formatbytes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "lib_format_formattime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "streaming_video_player_withseek",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "streaming_video_player_videoplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L301",
+      "weight": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "streaming_video_player_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_ui_button_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_components_ui_button_tsx",
+      "target": "ui_button_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/useTorrentApi.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_hooks_usetorrentapi_ts",
+      "target": "hooks_usetorrentapi_usetorrentapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/assets.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_lib_assets_ts",
+      "target": "lib_assets_mediaurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/films.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_lib_films_ts",
+      "target": "lib_films_tofilm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_lib_format_ts",
+      "target": "lib_format_formattime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_lib_format_ts",
+      "target": "lib_format_formatruntime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_lib_format_ts",
+      "target": "lib_format_formatbytes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_lib_utils_ts",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
