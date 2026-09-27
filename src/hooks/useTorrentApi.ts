@@ -21,15 +21,9 @@ export function useTorrentApi() {
   const [lastError, setLastError] = useState<{ infoHash: string; error: ApiError } | null>(
     null,
   )
-  const [ready, setReady] = useState(false)
-  const available = typeof window !== 'undefined' && Boolean(window.api)
-
   useEffect(() => {
     const api = window.api
-    if (!api) {
-      setReady(true)
-      return
-    }
+    if (!api) return
     let cancelled = false
     void Promise.all([api.getLibrary(), api.getWatchlist(), api.getSettings()]).then(
       ([nextLibrary, nextWatchlist, nextSettings]) => {
@@ -37,7 +31,6 @@ export function useTorrentApi() {
         setLibrary(nextLibrary)
         setWatchlist(nextWatchlist)
         setSettings(nextSettings)
-        setReady(true)
       },
     )
     const offStats = api.onStats((stats) => {
@@ -164,8 +157,6 @@ export function useTorrentApi() {
   const clearError = useCallback(() => setLastError(null), [])
 
   return {
-    available,
-    ready,
     library,
     watchlist,
     settings,

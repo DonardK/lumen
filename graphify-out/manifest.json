@@ -4,8 +4,8 @@
     "hash": "4f457f05d5b97c0f9c8f6706514f28d9"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\main.js": {
-    "mtime": 1790430642.6616294,
-    "hash": "4dbc7d064b6fdf078bef8ab71f1d018a"
+    "mtime": 1790461201.0265658,
+    "hash": "79f66a625a46039a71aeff5c91542dc7"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\metadata.js": {
     "mtime": 1790428315.5293598,
@@ -16,8 +16,8 @@
     "hash": "e72734b3c6deb60402287809b3db5d8d"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\preload.js": {
-    "mtime": 1790428248.2287517,
-    "hash": "0bf5c7454ba866a9920ac0d90dce5939"
+    "mtime": 1790461224.4011824,
+    "hash": "95136513120020c2d08957cb0b9dcdd8"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\store.js": {
     "mtime": 1790428331.3081858,
@@ -32,16 +32,16 @@
     "hash": "03ea3d8075ed79508ea4a973a4b62e94"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\transcodeServer.js": {
-    "mtime": 1790430950.5406778,
-    "hash": "9118d4ba92d8afe8c8ca92ebb6837b08"
+    "mtime": 1790458708.8928432,
+    "hash": "6a1be6fdd1a40f09e4dbe29d039acd70"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\main.tsx": {
     "mtime": 1790430093.1760244,
     "hash": "e9be4ba15e4dae0bc84a584ee08280e6"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\types.ts": {
-    "mtime": 1790430091.3490062,
-    "hash": "06f3be6e829e56b56fd74f834ab3c245"
+    "mtime": 1790461249.3176868,
+    "hash": "13ec4a99e22eef5802641a2d8f4af927"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\vite-env.d.ts": {
     "mtime": 1790430091.8291018,
@@ -56,12 +56,12 @@
     "hash": "d7a10983ce2ed9f57ef55518e1f79b05"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\media-card.tsx": {
-    "mtime": 1790430144.6490507,
-    "hash": "fae781df5eef90a227eb1b8b691f4a0b"
+    "mtime": 1790464598.5382895,
+    "hash": "f0e42f050744aff7cc79296006209ec0"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\media-grid.tsx": {
-    "mtime": 1790430153.6879296,
-    "hash": "4cc5cd74f0f4fafcb681a3ebf42f1109"
+    "mtime": 1790464833.6477957,
+    "hash": "bb8d0d20df77ebae4cfbce2e8165457e"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\mobile-nav.tsx": {
     "mtime": 1790424904.0,
@@ -72,48 +72,44 @@
     "hash": "31473b1a91a8de7e95ac47ff593b96a6"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\settings-panel.tsx": {
-    "mtime": 1790430175.7226648,
-    "hash": "019f94572433009ce6cb33802587962c"
+    "mtime": 1790464780.4278712,
+    "hash": "e2a02c670266838964f5c865f15a4fa5"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\sidebar.tsx": {
-    "mtime": 1790430129.8528273,
-    "hash": "90ac6339454406feaa780256b24994c2"
+    "mtime": 1790461167.1508827,
+    "hash": "5fcf2e0b42d4356966e4c76fcc00cc03"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\streaming-app.tsx": {
-    "mtime": 1790430384.762791,
-    "hash": "e9e6da1664f9933c281b508b7c8f6087"
+    "mtime": 1790464840.7784913,
+    "hash": "ff38afdb76fac8e9629a18d3d2fdc5a3"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\top-bar.tsx": {
-    "mtime": 1790430328.3581972,
-    "hash": "a47e64b1b2dae8dc514747a47b259553"
+    "mtime": 1790465207.5450604,
+    "hash": "e16d107b6a353b555a4f69d4ef60c8fb"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\track-slider.tsx": {
     "mtime": 1790424904.0,
     "hash": "0b28ca4f78f0db61f3873ca6043331cb"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\streaming\\video-player.tsx": {
-    "mtime": 1790430357.5282178,
-    "hash": "3d5152d00969db37e274f802ff845d89"
-  },
-  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\components\\ui\\button.tsx": {
-    "mtime": 1790424904.0,
-    "hash": "63cfaae37f8d5e0fa4451635ccc521b4"
+    "mtime": 1790464628.9061177,
+    "hash": "819b62c65aa5a13c82777f07f37eafa0"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\hooks\\useTorrentApi.ts": {
-    "mtime": 1790430107.0923028,
-    "hash": "1de157adabd9b4fd18f3228deae6de27"
+    "mtime": 1790464281.24877,
+    "hash": "59d593eae47fbe4ebb1fbba04b187562"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\assets.ts": {
     "mtime": 1790430081.0173929,
     "hash": "14ac842aab911fe7629bfb24b4b94499"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\films.ts": {
-    "mtime": 1790430083.6546407,
-    "hash": "de9b63e05b6bb24fde7305918373352a"
+    "mtime": 1790463901.639809,
+    "hash": "54e8be7afcc090ca975b523123f264ab"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\format.ts": {
-    "mtime": 1790430079.6490593,
-    "hash": "278184485a6505b9f34dfa9c8b2c86ff"
+    "mtime": 1790460461.7716422,
+    "hash": "8d2dd26b0124d0abc755103bbe6974ea"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\lib\\utils.ts": {
     "mtime": 1790424904.0,
@@ -124,8 +120,8 @@
     "hash": "e9cce4c034310fa391a8d3c77c9c7f41"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\index.html": {
-    "mtime": 1790428239.3364265,
-    "hash": "b33f7b8c6eaee98db47b58ba9d3e4f85"
+    "mtime": 1790464917.900094,
+    "hash": "c337ec79cdfaa9ff2f09286b02ca9fb0"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\pnpm-workspace.yaml": {
     "mtime": 1790430541.540186,

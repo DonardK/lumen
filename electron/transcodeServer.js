@@ -285,7 +285,14 @@ class TranscodeServer {
       return
     }
 
-    const url = new URL(request.url || '/', 'http://127.0.0.1')
+    let url
+    try {
+      url = new URL(request.url || '/', 'http://127.0.0.1')
+    } catch {
+      response.writeHead(400)
+      response.end()
+      return
+    }
     if (request.method === 'OPTIONS') {
       response.writeHead(204, {
         'Access-Control-Allow-Origin': '*',

@@ -5,6 +5,7 @@ import { MediaCard } from './media-card'
 
 type MediaGridProps = {
   films: Film[]
+  totalCount: number
   currentId: string
   filter: LibraryFilter
   onFilterChange: (filter: LibraryFilter) => void
@@ -23,6 +24,7 @@ const FILTER_LABELS: Record<LibraryFilter, string> = {
 
 export function MediaGrid({
   films,
+  totalCount,
   currentId,
   filter,
   onFilterChange,
@@ -86,11 +88,15 @@ export function MediaGrid({
         </ul>
       ) : (
         <div className="glass flex flex-col items-center gap-2 rounded-3xl px-6 py-14 text-center">
-          <p className="font-medium">Nothing here yet</p>
+          <p className="font-medium">
+            {totalCount > 0 ? 'No titles match this filter' : 'Nothing here yet'}
+          </p>
           <p className="max-w-sm text-sm text-pretty text-muted-foreground">
-            {filter === 'watchlist'
-              ? 'Save films to your watchlist and they will wait for you here.'
-              : 'Paste a magnet link or drop a .torrent file to add a movie.'}
+            {totalCount > 0
+              ? 'Switch filters to see the rest of your library.'
+              : filter === 'watchlist'
+                ? 'Save films to your watchlist and they will wait for you here.'
+                : 'Paste a magnet link or drop a .torrent file to add a movie.'}
           </p>
         </div>
       )}

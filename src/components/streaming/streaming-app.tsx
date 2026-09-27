@@ -108,7 +108,7 @@ export function StreamingApp() {
     if (!api.lastError) return
     const relevant =
       api.lastError.infoHash === pendingHash || api.lastError.infoHash === session?.infoHash
-    if (!relevant && pendingHash) return
+    if (pendingHash && !relevant) return
     setError(api.lastError.error)
     if (api.lastError.error.code === 'no-peers' || api.lastError.error.code === 'ffmpeg') {
       setPhase('idle')
@@ -390,6 +390,7 @@ export function StreamingApp() {
 
           <MediaGrid
             films={visibleFilms}
+            totalCount={films.length}
             currentId={current?.id || ''}
             filter={filter}
             onFilterChange={setFilter}

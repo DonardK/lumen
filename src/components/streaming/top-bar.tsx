@@ -44,6 +44,7 @@ export function TopBar({
         className="flex min-w-0 flex-1 items-center gap-2"
         onSubmit={(event) => {
           event.preventDefault()
+          if (busy) return
           onSubmit(value)
         }}
       >
@@ -61,6 +62,7 @@ export function TopBar({
             spellCheck={false}
             onChange={(event) => onValueChange(event.target.value)}
             onPaste={(event) => {
+              if (busy) return
               const text = event.clipboardData.getData('text').trim()
               if (/^magnet:\?/i.test(text) || /^https?:\/\//i.test(text)) {
                 event.preventDefault()
@@ -78,7 +80,11 @@ export function TopBar({
           aria-label="Play magnet link"
           className="glass-subtle flex size-11 shrink-0 items-center justify-center rounded-full text-foreground transition-colors hover:text-primary disabled:opacity-40"
         >
-          <Play className="size-4 fill-current" aria-hidden="true" />
+          {busy ? (
+            <span className="size-4 animate-spin rounded-full border-2 border-foreground/20 border-t-primary" />
+          ) : (
+            <Play className="size-4 fill-current" aria-hidden="true" />
+          )}
         </button>
         <button
           type="button"

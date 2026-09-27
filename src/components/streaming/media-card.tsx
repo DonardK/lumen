@@ -23,6 +23,10 @@ export function MediaCard({
     film.durationSeconds > 0
       ? Math.min(100, (film.progressSeconds / film.durationSeconds) * 100)
       : 0
+  const timeLeft =
+    film.progressSeconds > 5 && !isCurrent && film.durationSeconds > film.progressSeconds
+      ? `${formatRuntime(film.durationSeconds - film.progressSeconds)} left`
+      : null
 
   return (
     <article className="group relative flex flex-col gap-3">
@@ -75,7 +79,7 @@ export function MediaCard({
             </button>
           </h3>
           <p className="truncate text-sm text-muted-foreground">
-            {[film.year || null, film.genre || 'Movie', film.durationSeconds ? formatRuntime(film.durationSeconds) : null]
+            {[film.year || null, film.genre || 'Movie', film.durationSeconds ? formatRuntime(film.durationSeconds) : null, timeLeft]
               .filter(Boolean)
               .join(' · ')}
           </p>

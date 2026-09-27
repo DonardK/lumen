@@ -46,7 +46,6 @@ export function SettingsPanel({
         className="glass relative flex w-full max-w-md flex-col gap-4 rounded-3xl p-5 duration-300 animate-in fade-in zoom-in-95 slide-in-from-bottom-4 motion-reduce:animate-none"
         onSubmit={(event) => {
           event.preventDefault()
-          onChange({ cacheDir: cacheDir.trim(), tmdbApiKey })
           onClose()
         }}
       >
@@ -65,14 +64,19 @@ export function SettingsPanel({
             <input
               value={cacheDir}
               spellCheck={false}
-              onChange={(event) => setCacheDir(event.target.value)}
+              onChange={(event) => {
+                setCacheDir(event.target.value)
+                onChange({ cacheDir: event.target.value.trim() })
+              }}
               className="h-10 min-w-0 flex-1 rounded-xl border border-glass-border bg-background/40 px-3 text-sm outline-none focus-visible:outline-2 focus-visible:outline-ring"
             />
             <button
               type="button"
               onClick={async () => {
                 const path = await onBrowseCacheDir()
-                if (path) setCacheDir(path)
+                if (!path) return
+                setCacheDir(path)
+                onChange({ cacheDir: path })
               }}
               aria-label="Browse for a cache folder"
               className="glass-subtle flex size-10 shrink-0 items-center justify-center rounded-xl text-muted-foreground transition-colors hover:text-foreground"
@@ -100,7 +104,10 @@ export function SettingsPanel({
             autoComplete="off"
             spellCheck={false}
             placeholder="Optional, or set TMDB_API_KEY in .env"
-            onChange={(event) => setTmdbApiKey(event.target.value)}
+            onChange={(event) => {
+              setTmdbApiKey(event.target.value)
+              onChange({ tmdbApiKey: event.target.value })
+            }}
             className="h-10 rounded-xl border border-glass-border bg-background/40 px-3 text-sm outline-none focus-visible:outline-2 focus-visible:outline-ring"
           />
         </label>

@@ -110,8 +110,11 @@ function prioritizePlayback(torrent, file) {
   const tailCount = Math.max(1, Math.ceil(span * 0.01))
   const headEnd = Math.min(end, start + headCount - 1)
   const tailStart = Math.max(start, end - tailCount + 1)
-  torrent.critical(start, headEnd)
-  torrent.critical(tailStart, end)
+  // Older webtorrent builds may not expose critical().
+  if (typeof torrent.critical === 'function') {
+    torrent.critical(start, headEnd)
+    torrent.critical(tailStart, end)
+  }
 }
 
 class DirectServer {

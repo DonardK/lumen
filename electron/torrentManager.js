@@ -272,8 +272,22 @@ class TorrentManager {
 
   _focus(torrent) {
     for (const other of this.client.torrents) {
-      if (other.infoHash === torrent.infoHash) other.resume()
-      else this._pause(other)
+      if (other.infoHash !== torrent.infoHash) {
+        this._pause(other)
+        continue
+      }
+      other.resume()
+      // _pause deselects every piece to priority 0 and resume() does not
+      // re-select them, so a paused-then-resumed torrent could sit idle with
+      // no selection until playback runs prioritizePlayback. Re-select the
+      // whole torrent at normal priority; prioritizePlayback narrows it again.
+      if (torrent.pieces.length > 0) {
+        try {
+          torrent.select(0, torrent.pieces.length - 1, 0)
+        } catch {
+          // Selection failures here are non-fatal; playback re-selects below.
+        }
+      }
     }
   }
 

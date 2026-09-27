@@ -276,6 +276,26 @@ export function VideoPlayer({
         event.preventDefault()
         seekTo(displayTime + 10)
         break
+      case 'j':
+        if (isRange) return
+        event.preventDefault()
+        seekTo(displayTime - 10)
+        break
+      case 'l':
+        if (isRange) return
+        event.preventDefault()
+        seekTo(displayTime + 10)
+        break
+      case '<':
+        if (isRange) return
+        event.preventDefault()
+        setRateIndex((i) => (i - 1 + PLAYBACK_RATES.length) % PLAYBACK_RATES.length)
+        break
+      case '>':
+        if (isRange) return
+        event.preventDefault()
+        setRateIndex((i) => (i + 1) % PLAYBACK_RATES.length)
+        break
       default:
         return
     }

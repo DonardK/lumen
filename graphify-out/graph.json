@@ -9,7 +9,7 @@
       "source_file": "vite.config.mjs",
       "source_location": "L1",
       "id": "vite_config_mjs",
-      "community": 8,
+      "community": 9,
       "norm_label": "vite.config.mjs"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "electron/main.js",
       "source_location": "L1",
       "id": "electron_main_js",
-      "community": 5,
+      "community": 4,
       "norm_label": "main.js"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "electron/main.js",
       "source_location": "L15",
       "id": "electron_main_loadenvfile",
-      "community": 5,
+      "community": 4,
       "norm_label": "loadenvfile()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "electron/main.js",
       "source_location": "L38",
       "id": "electron_main_cachedir",
-      "community": 5,
+      "community": 4,
       "norm_label": "cachedir()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "electron/main.js",
       "source_location": "L45",
       "id": "electron_main_tmdbkey",
-      "community": 5,
+      "community": 4,
       "norm_label": "tmdbkey()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "electron/main.js",
       "source_location": "L49",
       "id": "electron_main_isinside",
-      "community": 5,
+      "community": 4,
       "norm_label": "isinside()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "electron/main.js",
       "source_location": "L55",
       "id": "electron_main_send",
-      "community": 5,
+      "community": 4,
       "norm_label": "send()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "electron/main.js",
       "source_location": "L60",
       "id": "electron_main_toresult",
-      "community": 5,
+      "community": 4,
       "norm_label": "toresult()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "electron/main.js",
       "source_location": "L73",
       "id": "electron_main_buildentry",
-      "community": 5,
+      "community": 4,
       "norm_label": "buildentry()"
     },
     {
@@ -90,34 +90,34 @@
       "source_file": "electron/main.js",
       "source_location": "L96",
       "id": "electron_main_registeripc",
-      "community": 5,
+      "community": 4,
       "norm_label": "registeripc()"
     },
     {
       "label": "saveProgress()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L179",
+      "source_location": "L190",
       "id": "electron_main_saveprogress",
-      "community": 5,
+      "community": 4,
       "norm_label": "saveprogress()"
     },
     {
       "label": "createWindow()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L189",
+      "source_location": "L200",
       "id": "electron_main_createwindow",
-      "community": 5,
+      "community": 4,
       "norm_label": "createwindow()"
     },
     {
       "label": "shutdown()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L235",
+      "source_location": "L246",
       "id": "electron_main_shutdown",
-      "community": 5,
+      "community": 4,
       "norm_label": "shutdown()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L1",
       "id": "electron_metadata_js",
-      "community": 5,
+      "community": 4,
       "norm_label": "metadata.js"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L4",
       "id": "electron_metadata_parsetitleyear",
-      "community": 5,
+      "community": 4,
       "norm_label": "parsetitleyear()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L24",
       "id": "electron_metadata_tagsfor",
-      "community": 5,
+      "community": 4,
       "norm_label": "tagsfor()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L35",
       "id": "electron_metadata_lookupmovie",
-      "community": 5,
+      "community": 4,
       "norm_label": "lookupmovie()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "electron/metadata.test.js",
       "source_location": "L1",
       "id": "electron_metadata_test_js",
-      "community": 9,
+      "community": 10,
       "norm_label": "metadata.test.js"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L10",
       "id": "electron_preload_addtorrent",
-      "community": 4,
+      "community": 3,
       "norm_label": "addtorrent()"
     },
     {
@@ -220,10 +220,19 @@
       "norm_label": "picktorrentfile()"
     },
     {
-      "label": "getPathForFile()",
+      "label": "pickCacheDir()",
       "file_type": "code",
       "source_file": "electron/preload.js",
       "source_location": "L22",
+      "id": "electron_preload_pickcachedir",
+      "community": 2,
+      "norm_label": "pickcachedir()"
+    },
+    {
+      "label": "getPathForFile()",
+      "file_type": "code",
+      "source_file": "electron/preload.js",
+      "source_location": "L25",
       "id": "electron_preload_getpathforfile",
       "community": 2,
       "norm_label": "getpathforfile()"
@@ -232,7 +241,7 @@
       "label": "getLibrary()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L29",
+      "source_location": "L32",
       "id": "electron_preload_getlibrary",
       "community": 2,
       "norm_label": "getlibrary()"
@@ -241,7 +250,7 @@
       "label": "upsertLibrary()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L32",
+      "source_location": "L35",
       "id": "electron_preload_upsertlibrary",
       "community": 2,
       "norm_label": "upsertlibrary()"
@@ -250,7 +259,7 @@
       "label": "removeLibraryEntry()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L35",
+      "source_location": "L38",
       "id": "electron_preload_removelibraryentry",
       "community": 2,
       "norm_label": "removelibraryentry()"
@@ -259,7 +268,7 @@
       "label": "getWatchlist()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L38",
+      "source_location": "L41",
       "id": "electron_preload_getwatchlist",
       "community": 2,
       "norm_label": "getwatchlist()"
@@ -268,7 +277,7 @@
       "label": "toggleWatchlist()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L41",
+      "source_location": "L44",
       "id": "electron_preload_togglewatchlist",
       "community": 2,
       "norm_label": "togglewatchlist()"
@@ -277,7 +286,7 @@
       "label": "getSettings()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L44",
+      "source_location": "L47",
       "id": "electron_preload_getsettings",
       "community": 2,
       "norm_label": "getsettings()"
@@ -286,7 +295,7 @@
       "label": "updateSettings()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L47",
+      "source_location": "L50",
       "id": "electron_preload_updatesettings",
       "community": 2,
       "norm_label": "updatesettings()"
@@ -295,7 +304,7 @@
       "label": "saveProgress()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L50",
+      "source_location": "L53",
       "id": "electron_preload_saveprogress",
       "community": 2,
       "norm_label": "saveprogress()"
@@ -304,7 +313,7 @@
       "label": "flushProgress()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L53",
+      "source_location": "L56",
       "id": "electron_preload_flushprogress",
       "community": 2,
       "norm_label": "flushprogress()"
@@ -313,7 +322,7 @@
       "label": "onStats()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L56",
+      "source_location": "L59",
       "id": "electron_preload_onstats",
       "community": 2,
       "norm_label": "onstats()"
@@ -322,7 +331,7 @@
       "label": "onTorrentError()",
       "file_type": "code",
       "source_file": "electron/preload.js",
-      "source_location": "L59",
+      "source_location": "L62",
       "id": "electron_preload_ontorrenterror",
       "community": 2,
       "norm_label": "ontorrenterror()"
@@ -333,7 +342,7 @@
       "source_file": "electron/store.js",
       "source_location": "L1",
       "id": "electron_store_js",
-      "community": 7,
+      "community": 8,
       "norm_label": "store.js"
     },
     {
@@ -342,7 +351,7 @@
       "source_file": "electron/store.js",
       "source_location": "L21",
       "id": "electron_store_ishexhash",
-      "community": 7,
+      "community": 8,
       "norm_label": "ishexhash()"
     },
     {
@@ -351,7 +360,7 @@
       "source_file": "electron/store.js",
       "source_location": "L25",
       "id": "electron_store_createstore",
-      "community": 7,
+      "community": 8,
       "norm_label": "createstore()"
     },
     {
@@ -387,7 +396,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L35",
       "id": "electron_streamserver_listvideofiles",
-      "community": 6,
+      "community": 0,
       "norm_label": "listvideofiles()"
     },
     {
@@ -396,7 +405,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L51",
       "id": "electron_streamserver_choosevideofiles",
-      "community": 6,
+      "community": 0,
       "norm_label": "choosevideofiles()"
     },
     {
@@ -477,7 +486,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L165",
       "id": "electron_streamserver_directstreamurl",
-      "community": 6,
+      "community": 0,
       "norm_label": "directstreamurl()"
     },
     {
@@ -486,7 +495,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L1",
       "id": "electron_torrentmanager_js",
-      "community": 3,
+      "community": 0,
       "norm_label": "torrentmanager.js"
     },
     {
@@ -495,7 +504,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L19",
       "id": "electron_torrentmanager_apperror",
-      "community": 3,
+      "community": 0,
       "norm_label": "apperror()"
     },
     {
@@ -504,7 +513,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L25",
       "id": "electron_torrentmanager_classifyinput",
-      "community": 3,
+      "community": 0,
       "norm_label": "classifyinput()"
     },
     {
@@ -513,7 +522,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L58",
       "id": "electron_torrentmanager_cachefolder",
-      "community": 3,
+      "community": 0,
       "norm_label": "cachefolder()"
     },
     {
@@ -522,7 +531,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L62",
       "id": "electron_torrentmanager_torrentmanager",
-      "community": 3,
+      "community": 0,
       "norm_label": "torrentmanager"
     },
     {
@@ -531,7 +540,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L63",
       "id": "electron_torrentmanager_torrentmanager_constructor",
-      "community": 3,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -540,7 +549,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L89",
       "id": "electron_torrentmanager_torrentmanager_add",
-      "community": 3,
+      "community": 0,
       "norm_label": ".add()"
     },
     {
@@ -549,7 +558,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L144",
       "id": "electron_torrentmanager_torrentmanager_whenready",
-      "community": 3,
+      "community": 0,
       "norm_label": "._whenready()"
     },
     {
@@ -558,7 +567,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L170",
       "id": "electron_torrentmanager_torrentmanager_selectfile",
-      "community": 3,
+      "community": 0,
       "norm_label": ".selectfile()"
     },
     {
@@ -567,7 +576,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L203",
       "id": "electron_torrentmanager_torrentmanager_remove",
-      "community": 3,
+      "community": 0,
       "norm_label": ".remove()"
     },
     {
@@ -576,7 +585,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L215",
       "id": "electron_torrentmanager_torrentmanager_has",
-      "community": 3,
+      "community": 0,
       "norm_label": ".has()"
     },
     {
@@ -585,7 +594,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L219",
       "id": "electron_torrentmanager_torrentmanager_shutdown",
-      "community": 3,
+      "community": 0,
       "norm_label": ".shutdown()"
     },
     {
@@ -594,7 +603,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L253",
       "id": "electron_torrentmanager_torrentmanager_existing",
-      "community": 3,
+      "community": 0,
       "norm_label": "._existing()"
     },
     {
@@ -603,7 +612,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L261",
       "id": "electron_torrentmanager_torrentmanager_summary",
-      "community": 3,
+      "community": 0,
       "norm_label": "._summary()"
     },
     {
@@ -612,7 +621,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L273",
       "id": "electron_torrentmanager_torrentmanager_focus",
-      "community": 3,
+      "community": 0,
       "norm_label": "._focus()"
     },
     {
@@ -621,7 +630,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L280",
       "id": "electron_torrentmanager_torrentmanager_pause",
-      "community": 3,
+      "community": 0,
       "norm_label": "._pause()"
     },
     {
@@ -630,7 +639,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L299",
       "id": "electron_torrentmanager_torrentmanager_broadcaststats",
-      "community": 3,
+      "community": 0,
       "norm_label": "._broadcaststats()"
     },
     {
@@ -639,7 +648,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L333",
       "id": "electron_torrentmanager_torrentmanager_normalizeerror",
-      "community": 3,
+      "community": 0,
       "norm_label": "._normalizeerror()"
     },
     {
@@ -772,7 +781,7 @@
       "label": ".register()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L235",
+      "source_location": "L238",
       "id": "electron_transcodeserver_transcodeserver_register",
       "community": 1,
       "norm_label": ".register()"
@@ -781,7 +790,7 @@
       "label": ".unregister()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L239",
+      "source_location": "L242",
       "id": "electron_transcodeserver_transcodeserver_unregister",
       "community": 1,
       "norm_label": ".unregister()"
@@ -790,7 +799,7 @@
       "label": ".streamUrl()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L248",
+      "source_location": "L251",
       "id": "electron_transcodeserver_transcodeserver_streamurl",
       "community": 1,
       "norm_label": ".streamurl()"
@@ -799,7 +808,7 @@
       "label": ".killAll()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L257",
+      "source_location": "L260",
       "id": "electron_transcodeserver_transcodeserver_killall",
       "community": 1,
       "norm_label": ".killall()"
@@ -808,7 +817,7 @@
       "label": "._stop()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L267",
+      "source_location": "L270",
       "id": "electron_transcodeserver_transcodeserver_stop",
       "community": 1,
       "norm_label": "._stop()"
@@ -817,7 +826,7 @@
       "label": "._handle()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L278",
+      "source_location": "L281",
       "id": "electron_transcodeserver_transcodeserver_handle",
       "community": 1,
       "norm_label": "._handle()"
@@ -826,7 +835,7 @@
       "label": "._spawn()",
       "file_type": "code",
       "source_file": "electron/transcodeServer.js",
-      "source_location": "L354",
+      "source_location": "L357",
       "id": "electron_transcodeserver_transcodeserver_spawn",
       "community": 1,
       "norm_label": "._spawn()"
@@ -837,7 +846,7 @@
       "source_file": "src/main.tsx",
       "source_location": "L1",
       "id": "src_main_tsx",
-      "community": 10,
+      "community": 11,
       "norm_label": "main.tsx"
     },
     {
@@ -846,7 +855,7 @@
       "source_file": "src/types.ts",
       "source_location": "L1",
       "id": "src_types_ts",
-      "community": 11,
+      "community": 12,
       "norm_label": "types.ts"
     },
     {
@@ -855,7 +864,7 @@
       "source_file": "src/vite-env.d.ts",
       "source_location": "L1",
       "id": "src_vite_env_d_ts",
-      "community": 12,
+      "community": 13,
       "norm_label": "vite-env.d.ts"
     },
     {
@@ -864,7 +873,7 @@
       "source_file": "src/components/streaming/ambient-backdrop.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_ambient_backdrop_tsx",
-      "community": 0,
+      "community": 5,
       "norm_label": "ambient-backdrop.tsx"
     },
     {
@@ -873,7 +882,7 @@
       "source_file": "src/components/streaming/ambient-backdrop.tsx",
       "source_location": "L4",
       "id": "streaming_ambient_backdrop_ambientbackdrop",
-      "community": 0,
+      "community": 5,
       "norm_label": "ambientbackdrop()"
     },
     {
@@ -882,7 +891,7 @@
       "source_file": "src/components/streaming/library-nav.ts",
       "source_location": "L1",
       "id": "src_components_streaming_library_nav_ts",
-      "community": 4,
+      "community": 3,
       "norm_label": "library-nav.ts"
     },
     {
@@ -891,7 +900,7 @@
       "source_file": "src/components/streaming/library-nav.ts",
       "source_location": "L23",
       "id": "streaming_library_nav_matchesfilter",
-      "community": 4,
+      "community": 3,
       "norm_label": "matchesfilter()"
     },
     {
@@ -900,7 +909,7 @@
       "source_file": "src/components/streaming/media-card.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_media_card_tsx",
-      "community": 0,
+      "community": 5,
       "norm_label": "media-card.tsx"
     },
     {
@@ -909,16 +918,16 @@
       "source_file": "src/components/streaming/media-grid.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_media_grid_tsx",
-      "community": 0,
+      "community": 7,
       "norm_label": "media-grid.tsx"
     },
     {
       "label": "cn()",
       "file_type": "code",
       "source_file": "src/components/streaming/media-grid.tsx",
-      "source_location": "L56",
+      "source_location": "L58",
       "id": "streaming_media_grid_cn",
-      "community": 0,
+      "community": 7,
       "norm_label": "cn()"
     },
     {
@@ -927,7 +936,7 @@
       "source_file": "src/components/streaming/mobile-nav.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_mobile_nav_tsx",
-      "community": 0,
+      "community": 7,
       "norm_label": "mobile-nav.tsx"
     },
     {
@@ -936,7 +945,7 @@
       "source_file": "src/components/streaming/mobile-nav.tsx",
       "source_location": "L9",
       "id": "streaming_mobile_nav_mobilenav",
-      "community": 0,
+      "community": 7,
       "norm_label": "mobilenav()"
     },
     {
@@ -945,7 +954,7 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_now_playing_details_tsx",
-      "community": 0,
+      "community": 5,
       "norm_label": "now-playing-details.tsx"
     },
     {
@@ -954,7 +963,7 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L33",
       "id": "streaming_now_playing_details_share",
-      "community": 0,
+      "community": 5,
       "norm_label": "share()"
     },
     {
@@ -963,16 +972,16 @@
       "source_file": "src/components/streaming/settings-panel.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_settings_panel_tsx",
-      "community": 4,
+      "community": 3,
       "norm_label": "settings-panel.tsx"
     },
     {
       "label": "SettingsPanel()",
       "file_type": "code",
       "source_file": "src/components/streaming/settings-panel.tsx",
-      "source_location": "L9",
+      "source_location": "L12",
       "id": "streaming_settings_panel_settingspanel",
-      "community": 4,
+      "community": 3,
       "norm_label": "settingspanel()"
     },
     {
@@ -981,7 +990,7 @@
       "source_file": "src/components/streaming/sidebar.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_sidebar_tsx",
-      "community": 0,
+      "community": 7,
       "norm_label": "sidebar.tsx"
     },
     {
@@ -990,7 +999,7 @@
       "source_file": "src/components/streaming/sidebar.tsx",
       "source_location": "L42",
       "id": "streaming_sidebar_cn",
-      "community": 0,
+      "community": 7,
       "norm_label": "cn()"
     },
     {
@@ -999,14 +1008,14 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_streaming_app_tsx",
-      "community": 4,
+      "community": 3,
       "norm_label": "streaming-app.tsx"
     },
     {
       "label": "flush()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L133",
+      "source_location": "L135",
       "id": "streaming_streaming_app_flush",
       "community": 2,
       "norm_label": "flush()"
@@ -1015,25 +1024,25 @@
       "label": "onDragOver()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L152",
+      "source_location": "L154",
       "id": "streaming_streaming_app_ondragover",
-      "community": 4,
+      "community": 3,
       "norm_label": "ondragover()"
     },
     {
       "label": "onDragLeave()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L157",
+      "source_location": "L159",
       "id": "streaming_streaming_app_ondragleave",
-      "community": 4,
+      "community": 3,
       "norm_label": "ondragleave()"
     },
     {
       "label": "onDrop()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L160",
+      "source_location": "L162",
       "id": "streaming_streaming_app_ondrop",
       "community": 2,
       "norm_label": "ondrop()"
@@ -1042,36 +1051,36 @@
       "label": "begin()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L192",
+      "source_location": "L194",
       "id": "streaming_streaming_app_begin",
-      "community": 4,
+      "community": 3,
       "norm_label": "begin()"
     },
     {
       "label": "playFile()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L230",
+      "source_location": "L232",
       "id": "streaming_streaming_app_playfile",
-      "community": 4,
+      "community": 3,
       "norm_label": "playfile()"
     },
     {
       "label": "playSaved()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L263",
+      "source_location": "L265",
       "id": "streaming_streaming_app_playsaved",
-      "community": 4,
+      "community": 3,
       "norm_label": "playsaved()"
     },
     {
       "label": "removeCurrent()",
       "file_type": "code",
       "source_file": "src/components/streaming/streaming-app.tsx",
-      "source_location": "L269",
+      "source_location": "L271",
       "id": "streaming_streaming_app_removecurrent",
-      "community": 4,
+      "community": 3,
       "norm_label": "removecurrent()"
     },
     {
@@ -1080,17 +1089,17 @@
       "source_file": "src/components/streaming/top-bar.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_top_bar_tsx",
-      "community": 4,
+      "community": 3,
       "norm_label": "top-bar.tsx"
     },
     {
-      "label": "TopBar()",
+      "label": "onKey()",
       "file_type": "code",
       "source_file": "src/components/streaming/top-bar.tsx",
-      "source_location": "L11",
-      "id": "streaming_top_bar_topbar",
-      "community": 4,
-      "norm_label": "topbar()"
+      "source_location": "L24",
+      "id": "streaming_top_bar_onkey",
+      "community": 3,
+      "norm_label": "onkey()"
     },
     {
       "label": "track-slider.tsx",
@@ -1098,7 +1107,7 @@
       "source_file": "src/components/streaming/track-slider.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_track_slider_tsx",
-      "community": 0,
+      "community": 7,
       "norm_label": "track-slider.tsx"
     },
     {
@@ -1107,52 +1116,34 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_video_player_tsx",
-      "community": 0,
+      "community": 5,
       "norm_label": "video-player.tsx"
     },
     {
       "label": "withSeek()",
       "file_type": "code",
       "source_file": "src/components/streaming/video-player.tsx",
-      "source_location": "L82",
+      "source_location": "L83",
       "id": "streaming_video_player_withseek",
-      "community": 0,
+      "community": 5,
       "norm_label": "withseek()"
     },
     {
       "label": "VideoPlayer()",
       "file_type": "code",
       "source_file": "src/components/streaming/video-player.tsx",
-      "source_location": "L88",
+      "source_location": "L89",
       "id": "streaming_video_player_videoplayer",
-      "community": 0,
+      "community": 5,
       "norm_label": "videoplayer()"
     },
     {
       "label": "cn()",
       "file_type": "code",
       "source_file": "src/components/streaming/video-player.tsx",
-      "source_location": "L301",
+      "source_location": "L328",
       "id": "streaming_video_player_cn",
-      "community": 0,
-      "norm_label": "cn()"
-    },
-    {
-      "label": "button.tsx",
-      "file_type": "code",
-      "source_file": "src/components/ui/button.tsx",
-      "source_location": "L1",
-      "id": "src_components_ui_button_tsx",
-      "community": 0,
-      "norm_label": "button.tsx"
-    },
-    {
-      "label": "cn()",
-      "file_type": "code",
-      "source_file": "src/components/ui/button.tsx",
-      "source_location": "L52",
-      "id": "ui_button_cn",
-      "community": 0,
+      "community": 5,
       "norm_label": "cn()"
     },
     {
@@ -1161,7 +1152,7 @@
       "source_file": "src/hooks/useTorrentApi.ts",
       "source_location": "L1",
       "id": "src_hooks_usetorrentapi_ts",
-      "community": 4,
+      "community": 3,
       "norm_label": "usetorrentapi.ts"
     },
     {
@@ -1170,7 +1161,7 @@
       "source_file": "src/hooks/useTorrentApi.ts",
       "source_location": "L16",
       "id": "hooks_usetorrentapi_usetorrentapi",
-      "community": 4,
+      "community": 3,
       "norm_label": "usetorrentapi()"
     },
     {
@@ -1179,7 +1170,7 @@
       "source_file": "src/lib/assets.ts",
       "source_location": "L1",
       "id": "src_lib_assets_ts",
-      "community": 0,
+      "community": 5,
       "norm_label": "assets.ts"
     },
     {
@@ -1188,7 +1179,7 @@
       "source_file": "src/lib/assets.ts",
       "source_location": "L1",
       "id": "lib_assets_mediaurl",
-      "community": 0,
+      "community": 5,
       "norm_label": "mediaurl()"
     },
     {
@@ -1197,16 +1188,16 @@
       "source_file": "src/lib/films.ts",
       "source_location": "L1",
       "id": "src_lib_films_ts",
-      "community": 4,
+      "community": 3,
       "norm_label": "films.ts"
     },
     {
       "label": "toFilm()",
       "file_type": "code",
       "source_file": "src/lib/films.ts",
-      "source_location": "L22",
+      "source_location": "L21",
       "id": "lib_films_tofilm",
-      "community": 4,
+      "community": 3,
       "norm_label": "tofilm()"
     },
     {
@@ -1215,7 +1206,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L1",
       "id": "src_lib_format_ts",
-      "community": 0,
+      "community": 5,
       "norm_label": "format.ts"
     },
     {
@@ -1224,7 +1215,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L1",
       "id": "lib_format_formattime",
-      "community": 0,
+      "community": 5,
       "norm_label": "formattime()"
     },
     {
@@ -1233,7 +1224,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L11",
       "id": "lib_format_formatruntime",
-      "community": 0,
+      "community": 5,
       "norm_label": "formatruntime()"
     },
     {
@@ -1242,8 +1233,17 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L16",
       "id": "lib_format_formatbytes",
-      "community": 0,
+      "community": 5,
       "norm_label": "formatbytes()"
+    },
+    {
+      "label": "formatSpeed()",
+      "file_type": "code",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L24",
+      "id": "lib_format_formatspeed",
+      "community": 5,
+      "norm_label": "formatspeed()"
     },
     {
       "label": "utils.ts",
@@ -1251,7 +1251,7 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L1",
       "id": "src_lib_utils_ts",
-      "community": 0,
+      "community": 7,
       "norm_label": "utils.ts"
     },
     {
@@ -1260,8 +1260,35 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "id": "lib_utils_cn",
-      "community": 0,
+      "community": 7,
       "norm_label": "cn()"
+    },
+    {
+      "label": "TopBar()",
+      "file_type": "code",
+      "source_file": "src/components/streaming/top-bar.tsx",
+      "source_location": "L11",
+      "community": 3,
+      "norm_label": "topbar()",
+      "id": "streaming_top_bar_topbar"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "button.tsx",
+      "id": "src_components_ui_button_tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L52",
+      "community": 7,
+      "norm_label": "cn()",
+      "id": "ui_button_cn"
     }
   ],
   "links": [
@@ -1271,9 +1298,9 @@
       "source_file": "electron/main.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_loadenvfile",
-      "confidence_score": 1.0
+      "target": "electron_main_loadenvfile"
     },
     {
       "relation": "contains",
@@ -1281,9 +1308,9 @@
       "source_file": "electron/main.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_cachedir",
-      "confidence_score": 1.0
+      "target": "electron_main_cachedir"
     },
     {
       "relation": "contains",
@@ -1291,9 +1318,9 @@
       "source_file": "electron/main.js",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_tmdbkey",
-      "confidence_score": 1.0
+      "target": "electron_main_tmdbkey"
     },
     {
       "relation": "contains",
@@ -1301,9 +1328,9 @@
       "source_file": "electron/main.js",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_isinside",
-      "confidence_score": 1.0
+      "target": "electron_main_isinside"
     },
     {
       "relation": "contains",
@@ -1311,9 +1338,9 @@
       "source_file": "electron/main.js",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_send",
-      "confidence_score": 1.0
+      "target": "electron_main_send"
     },
     {
       "relation": "contains",
@@ -1321,9 +1348,9 @@
       "source_file": "electron/main.js",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_toresult",
-      "confidence_score": 1.0
+      "target": "electron_main_toresult"
     },
     {
       "relation": "contains",
@@ -1331,9 +1358,9 @@
       "source_file": "electron/main.js",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_buildentry",
-      "confidence_score": 1.0
+      "target": "electron_main_buildentry"
     },
     {
       "relation": "contains",
@@ -1341,9 +1368,9 @@
       "source_file": "electron/main.js",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_registeripc",
-      "confidence_score": 1.0
+      "target": "electron_main_registeripc"
     },
     {
       "relation": "contains",
@@ -1351,9 +1378,9 @@
       "source_file": "electron/main.js",
       "source_location": "L179",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_saveprogress",
-      "confidence_score": 1.0
+      "target": "electron_main_saveprogress"
     },
     {
       "relation": "contains",
@@ -1361,9 +1388,9 @@
       "source_file": "electron/main.js",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_createwindow",
-      "confidence_score": 1.0
+      "target": "electron_main_createwindow"
     },
     {
       "relation": "contains",
@@ -1371,9 +1398,9 @@
       "source_file": "electron/main.js",
       "source_location": "L235",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_js",
-      "target": "electron_main_shutdown",
-      "confidence_score": 1.0
+      "target": "electron_main_shutdown"
     },
     {
       "relation": "calls",
@@ -1382,9 +1409,9 @@
       "source_file": "electron/main.js",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_main_buildentry",
-      "target": "electron_main_tmdbkey",
-      "confidence_score": 1.0
+      "target": "electron_main_tmdbkey"
     },
     {
       "relation": "calls",
@@ -1414,9 +1441,9 @@
       "source_file": "electron/metadata.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_metadata_js",
-      "target": "electron_metadata_parsetitleyear",
-      "confidence_score": 1.0
+      "target": "electron_metadata_parsetitleyear"
     },
     {
       "relation": "contains",
@@ -1424,9 +1451,9 @@
       "source_file": "electron/metadata.js",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_metadata_js",
-      "target": "electron_metadata_tagsfor",
-      "confidence_score": 1.0
+      "target": "electron_metadata_tagsfor"
     },
     {
       "relation": "contains",
@@ -1434,9 +1461,9 @@
       "source_file": "electron/metadata.js",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_metadata_js",
-      "target": "electron_metadata_lookupmovie",
-      "confidence_score": 1.0
+      "target": "electron_metadata_lookupmovie"
     },
     {
       "relation": "calls",
@@ -1445,9 +1472,9 @@
       "source_file": "electron/metadata.js",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_metadata_lookupmovie",
-      "target": "electron_metadata_tagsfor",
-      "confidence_score": 1.0
+      "target": "electron_metadata_tagsfor"
     },
     {
       "relation": "contains",
@@ -1455,9 +1482,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_subscribe",
-      "confidence_score": 1.0
+      "target": "electron_preload_subscribe"
     },
     {
       "relation": "contains",
@@ -1465,9 +1492,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_addtorrent",
-      "confidence_score": 1.0
+      "target": "electron_preload_addtorrent"
     },
     {
       "relation": "contains",
@@ -1475,9 +1502,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_selectfile",
-      "confidence_score": 1.0
+      "target": "electron_preload_selectfile"
     },
     {
       "relation": "contains",
@@ -1485,9 +1512,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_removetorrent",
-      "confidence_score": 1.0
+      "target": "electron_preload_removetorrent"
     },
     {
       "relation": "contains",
@@ -1495,9 +1522,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_picktorrentfile",
-      "confidence_score": 1.0
+      "target": "electron_preload_picktorrentfile"
     },
     {
       "relation": "contains",
@@ -1506,8 +1533,18 @@
       "source_location": "L22",
       "weight": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_getpathforfile",
+      "target": "electron_preload_pickcachedir",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/preload.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_preload_js",
+      "target": "electron_preload_getpathforfile"
     },
     {
       "relation": "contains",
@@ -1515,9 +1552,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_getlibrary",
-      "confidence_score": 1.0
+      "target": "electron_preload_getlibrary"
     },
     {
       "relation": "contains",
@@ -1525,9 +1562,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_upsertlibrary",
-      "confidence_score": 1.0
+      "target": "electron_preload_upsertlibrary"
     },
     {
       "relation": "contains",
@@ -1535,9 +1572,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_removelibraryentry",
-      "confidence_score": 1.0
+      "target": "electron_preload_removelibraryentry"
     },
     {
       "relation": "contains",
@@ -1545,9 +1582,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_getwatchlist",
-      "confidence_score": 1.0
+      "target": "electron_preload_getwatchlist"
     },
     {
       "relation": "contains",
@@ -1555,9 +1592,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_togglewatchlist",
-      "confidence_score": 1.0
+      "target": "electron_preload_togglewatchlist"
     },
     {
       "relation": "contains",
@@ -1565,9 +1602,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_getsettings",
-      "confidence_score": 1.0
+      "target": "electron_preload_getsettings"
     },
     {
       "relation": "contains",
@@ -1575,9 +1612,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_updatesettings",
-      "confidence_score": 1.0
+      "target": "electron_preload_updatesettings"
     },
     {
       "relation": "contains",
@@ -1585,9 +1622,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_saveprogress",
-      "confidence_score": 1.0
+      "target": "electron_preload_saveprogress"
     },
     {
       "relation": "contains",
@@ -1595,9 +1632,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_flushprogress",
-      "confidence_score": 1.0
+      "target": "electron_preload_flushprogress"
     },
     {
       "relation": "contains",
@@ -1605,9 +1642,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_onstats",
-      "confidence_score": 1.0
+      "target": "electron_preload_onstats"
     },
     {
       "relation": "contains",
@@ -1615,9 +1652,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_js",
-      "target": "electron_preload_ontorrenterror",
-      "confidence_score": 1.0
+      "target": "electron_preload_ontorrenterror"
     },
     {
       "relation": "calls",
@@ -1626,9 +1663,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_onstats",
-      "target": "electron_preload_subscribe",
-      "confidence_score": 1.0
+      "target": "electron_preload_subscribe"
     },
     {
       "relation": "calls",
@@ -1637,9 +1674,9 @@
       "source_file": "electron/preload.js",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_preload_ontorrenterror",
-      "target": "electron_preload_subscribe",
-      "confidence_score": 1.0
+      "target": "electron_preload_subscribe"
     },
     {
       "relation": "calls",
@@ -1680,9 +1717,9 @@
       "source_file": "electron/store.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_store_js",
-      "target": "electron_store_ishexhash",
-      "confidence_score": 1.0
+      "target": "electron_store_ishexhash"
     },
     {
       "relation": "contains",
@@ -1690,9 +1727,9 @@
       "source_file": "electron/store.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_store_js",
-      "target": "electron_store_createstore",
-      "confidence_score": 1.0
+      "target": "electron_store_createstore"
     },
     {
       "relation": "contains",
@@ -1700,9 +1737,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_extensionof",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_extensionof"
     },
     {
       "relation": "contains",
@@ -1710,9 +1747,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_isvideofile",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_isvideofile"
     },
     {
       "relation": "contains",
@@ -1720,9 +1757,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_listvideofiles",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_listvideofiles"
     },
     {
       "relation": "contains",
@@ -1730,9 +1767,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_choosevideofiles",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_choosevideofiles"
     },
     {
       "relation": "contains",
@@ -1740,9 +1777,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_piecerange",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_piecerange"
     },
     {
       "relation": "contains",
@@ -1750,9 +1787,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_deselectrange",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_deselectrange"
     },
     {
       "relation": "contains",
@@ -1760,9 +1797,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_prioritizeplayback",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_prioritizeplayback"
     },
     {
       "relation": "contains",
@@ -1770,9 +1807,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_directserver",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directserver"
     },
     {
       "relation": "contains",
@@ -1780,9 +1817,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_js",
-      "target": "electron_streamserver_directstreamurl",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directstreamurl"
     },
     {
       "relation": "calls",
@@ -1791,9 +1828,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_isvideofile",
-      "target": "electron_streamserver_extensionof",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_extensionof"
     },
     {
       "relation": "calls",
@@ -1802,9 +1839,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_choosevideofiles",
-      "target": "electron_streamserver_listvideofiles",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_listvideofiles"
     },
     {
       "relation": "calls",
@@ -1824,9 +1861,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_prioritizeplayback",
-      "target": "electron_streamserver_piecerange",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_piecerange"
     },
     {
       "relation": "calls",
@@ -1835,9 +1872,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_prioritizeplayback",
-      "target": "electron_streamserver_deselectrange",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_deselectrange"
     },
     {
       "relation": "calls",
@@ -1856,9 +1893,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_directserver",
-      "target": "electron_streamserver_directserver_constructor",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directserver_constructor"
     },
     {
       "relation": "method",
@@ -1866,9 +1903,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_directserver",
-      "target": "electron_streamserver_directserver_ensure",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directserver_ensure"
     },
     {
       "relation": "method",
@@ -1876,9 +1913,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_directserver",
-      "target": "electron_streamserver_directserver_close",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directserver_close"
     },
     {
       "relation": "method",
@@ -1886,9 +1923,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_directserver",
-      "target": "electron_streamserver_directserver_closeall",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directserver_closeall"
     },
     {
       "relation": "calls",
@@ -1897,9 +1934,9 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L161",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_directserver_closeall",
-      "target": "electron_streamserver_directserver_close",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_directserver_close"
     },
     {
       "relation": "calls",
@@ -1918,9 +1955,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_js",
-      "target": "electron_torrentmanager_apperror",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_apperror"
     },
     {
       "relation": "contains",
@@ -1928,9 +1965,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_js",
-      "target": "electron_torrentmanager_classifyinput",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_classifyinput"
     },
     {
       "relation": "contains",
@@ -1938,9 +1975,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_js",
-      "target": "electron_torrentmanager_cachefolder",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_cachefolder"
     },
     {
       "relation": "contains",
@@ -1948,9 +1985,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_js",
-      "target": "electron_torrentmanager_torrentmanager",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager"
     },
     {
       "relation": "calls",
@@ -1959,9 +1996,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_classifyinput",
-      "target": "electron_torrentmanager_apperror",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_apperror"
     },
     {
       "relation": "calls",
@@ -1970,9 +2007,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_selectfile",
-      "target": "electron_torrentmanager_apperror",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_apperror"
     },
     {
       "relation": "calls",
@@ -1981,9 +2018,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L336",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_normalizeerror",
-      "target": "electron_torrentmanager_apperror",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_apperror"
     },
     {
       "relation": "calls",
@@ -1992,9 +2029,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_add",
-      "target": "electron_torrentmanager_classifyinput",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_classifyinput"
     },
     {
       "relation": "calls",
@@ -2003,9 +2040,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L268",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_summary",
-      "target": "electron_torrentmanager_cachefolder",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_cachefolder"
     },
     {
       "relation": "method",
@@ -2013,9 +2050,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_constructor",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_constructor"
     },
     {
       "relation": "method",
@@ -2023,9 +2060,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_add",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_add"
     },
     {
       "relation": "method",
@@ -2033,9 +2070,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_whenready",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_whenready"
     },
     {
       "relation": "method",
@@ -2043,9 +2080,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_selectfile",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_selectfile"
     },
     {
       "relation": "method",
@@ -2053,9 +2090,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_remove",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_remove"
     },
     {
       "relation": "method",
@@ -2063,9 +2100,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_has",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_has"
     },
     {
       "relation": "method",
@@ -2073,9 +2110,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_shutdown",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_shutdown"
     },
     {
       "relation": "method",
@@ -2083,9 +2120,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L253",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_existing",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_existing"
     },
     {
       "relation": "method",
@@ -2093,9 +2130,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L261",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_summary",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_summary"
     },
     {
       "relation": "method",
@@ -2103,9 +2140,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L273",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_focus",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_focus"
     },
     {
       "relation": "method",
@@ -2113,9 +2150,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L280",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_pause",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_pause"
     },
     {
       "relation": "method",
@@ -2123,9 +2160,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L299",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_broadcaststats",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_broadcaststats"
     },
     {
       "relation": "method",
@@ -2133,9 +2170,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager",
-      "target": "electron_torrentmanager_torrentmanager_normalizeerror",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_normalizeerror"
     },
     {
       "relation": "calls",
@@ -2144,9 +2181,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_add",
-      "target": "electron_torrentmanager_torrentmanager_existing",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_existing"
     },
     {
       "relation": "calls",
@@ -2155,9 +2192,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_add",
-      "target": "electron_torrentmanager_torrentmanager_whenready",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_whenready"
     },
     {
       "relation": "calls",
@@ -2166,9 +2203,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L324",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_broadcaststats",
-      "target": "electron_torrentmanager_torrentmanager_add",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_add"
     },
     {
       "relation": "calls",
@@ -2177,9 +2214,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_whenready",
-      "target": "electron_torrentmanager_torrentmanager_summary",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_summary"
     },
     {
       "relation": "calls",
@@ -2188,9 +2225,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_selectfile",
-      "target": "electron_torrentmanager_torrentmanager_focus",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_focus"
     },
     {
       "relation": "calls",
@@ -2210,9 +2247,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L262",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_summary",
-      "target": "electron_torrentmanager_torrentmanager_has",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_has"
     },
     {
       "relation": "calls",
@@ -2221,9 +2258,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L322",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_broadcaststats",
-      "target": "electron_torrentmanager_torrentmanager_has",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_has"
     },
     {
       "relation": "calls",
@@ -2232,9 +2269,9 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L276",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_torrentmanager_torrentmanager_focus",
-      "target": "electron_torrentmanager_torrentmanager_pause",
-      "confidence_score": 1.0
+      "target": "electron_torrentmanager_torrentmanager_pause"
     },
     {
       "relation": "contains",
@@ -2242,9 +2279,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_apperror",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_apperror"
     },
     {
       "relation": "contains",
@@ -2252,9 +2289,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_binarypath",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_binarypath"
     },
     {
       "relation": "contains",
@@ -2262,9 +2299,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_getffmpeg",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_getffmpeg"
     },
     {
       "relation": "contains",
@@ -2272,9 +2309,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_asnodestream",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_asnodestream"
     },
     {
       "relation": "contains",
@@ -2282,9 +2319,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_readsample",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_readsample"
     },
     {
       "relation": "contains",
@@ -2292,9 +2329,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_classify",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_classify"
     },
     {
       "relation": "contains",
@@ -2302,9 +2339,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_probewithffprobe",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_probewithffprobe"
     },
     {
       "relation": "contains",
@@ -2312,9 +2349,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_probefile",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_probefile"
     },
     {
       "relation": "contains",
@@ -2322,9 +2359,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_islocaladdress",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_islocaladdress"
     },
     {
       "relation": "contains",
@@ -2332,9 +2369,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L201",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_ignoredffmpegerror",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_ignoredffmpegerror"
     },
     {
       "relation": "contains",
@@ -2342,9 +2379,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L208",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_js",
-      "target": "electron_transcodeserver_transcodeserver",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver"
     },
     {
       "relation": "calls",
@@ -2353,9 +2390,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_getffmpeg",
-      "target": "electron_transcodeserver_apperror",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_apperror"
     },
     {
       "relation": "calls",
@@ -2364,9 +2401,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_readsample",
-      "target": "electron_transcodeserver_apperror",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_apperror"
     },
     {
       "relation": "calls",
@@ -2375,9 +2412,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_getffmpeg",
-      "target": "electron_transcodeserver_binarypath",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_binarypath"
     },
     {
       "relation": "calls",
@@ -2386,9 +2423,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_probewithffprobe",
-      "target": "electron_transcodeserver_getffmpeg",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_getffmpeg"
     },
     {
       "relation": "calls",
@@ -2397,9 +2434,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L355",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_spawn",
-      "target": "electron_transcodeserver_getffmpeg",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_getffmpeg"
     },
     {
       "relation": "calls",
@@ -2408,9 +2445,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_readsample",
-      "target": "electron_transcodeserver_asnodestream",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_asnodestream"
     },
     {
       "relation": "calls",
@@ -2419,9 +2456,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L356",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_spawn",
-      "target": "electron_transcodeserver_asnodestream",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_asnodestream"
     },
     {
       "relation": "calls",
@@ -2430,9 +2467,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_probefile",
-      "target": "electron_transcodeserver_readsample",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_readsample"
     },
     {
       "relation": "calls",
@@ -2441,9 +2478,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L176",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_probefile",
-      "target": "electron_transcodeserver_classify",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_classify"
     },
     {
       "relation": "calls",
@@ -2452,9 +2489,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L175",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_probefile",
-      "target": "electron_transcodeserver_probewithffprobe",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_probewithffprobe"
     },
     {
       "relation": "calls",
@@ -2463,9 +2500,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_handle",
-      "target": "electron_transcodeserver_islocaladdress",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_islocaladdress"
     },
     {
       "relation": "method",
@@ -2473,9 +2510,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L209",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_constructor",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_constructor"
     },
     {
       "relation": "method",
@@ -2483,9 +2520,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_ensure",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_ensure"
     },
     {
       "relation": "method",
@@ -2493,9 +2530,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L235",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_register",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_register"
     },
     {
       "relation": "method",
@@ -2503,9 +2540,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_unregister",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_unregister"
     },
     {
       "relation": "method",
@@ -2513,9 +2550,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L248",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_streamurl",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_streamurl"
     },
     {
       "relation": "method",
@@ -2523,9 +2560,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L257",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_killall",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_killall"
     },
     {
       "relation": "method",
@@ -2533,9 +2570,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L267",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_stop",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_stop"
     },
     {
       "relation": "method",
@@ -2543,9 +2580,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L278",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_handle",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_handle"
     },
     {
       "relation": "method",
@@ -2553,9 +2590,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L354",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver",
-      "target": "electron_transcodeserver_transcodeserver_spawn",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_spawn"
     },
     {
       "relation": "calls",
@@ -2564,9 +2601,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L242",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_unregister",
-      "target": "electron_transcodeserver_transcodeserver_stop",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_stop"
     },
     {
       "relation": "calls",
@@ -2575,9 +2612,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_killall",
-      "target": "electron_transcodeserver_transcodeserver_stop",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_stop"
     },
     {
       "relation": "calls",
@@ -2586,9 +2623,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L329",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_handle",
-      "target": "electron_transcodeserver_transcodeserver_stop",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_stop"
     },
     {
       "relation": "calls",
@@ -2597,9 +2634,9 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_transcodeserver_transcodeserver_handle",
-      "target": "electron_transcodeserver_transcodeserver_spawn",
-      "confidence_score": 1.0
+      "target": "electron_transcodeserver_transcodeserver_spawn"
     },
     {
       "relation": "imports",
@@ -2608,9 +2645,9 @@
       "source_file": "src/components/streaming/ambient-backdrop.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_ambient_backdrop_tsx",
-      "target": "lib_assets_mediaurl",
-      "confidence_score": 1.0
+      "target": "lib_assets_mediaurl"
     },
     {
       "relation": "contains",
@@ -2618,9 +2655,9 @@
       "source_file": "src/components/streaming/ambient-backdrop.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_ambient_backdrop_tsx",
-      "target": "streaming_ambient_backdrop_ambientbackdrop",
-      "confidence_score": 1.0
+      "target": "streaming_ambient_backdrop_ambientbackdrop"
     },
     {
       "relation": "imports",
@@ -2629,9 +2666,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_ambient_backdrop_ambientbackdrop",
-      "confidence_score": 1.0
+      "target": "streaming_ambient_backdrop_ambientbackdrop"
     },
     {
       "relation": "contains",
@@ -2639,9 +2676,9 @@
       "source_file": "src/components/streaming/library-nav.ts",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_library_nav_ts",
-      "target": "streaming_library_nav_matchesfilter",
-      "confidence_score": 1.0
+      "target": "streaming_library_nav_matchesfilter"
     },
     {
       "relation": "imports",
@@ -2650,9 +2687,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_library_nav_matchesfilter",
-      "confidence_score": 1.0
+      "target": "streaming_library_nav_matchesfilter"
     },
     {
       "relation": "imports",
@@ -2661,9 +2698,9 @@
       "source_file": "src/components/streaming/media-card.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_media_card_tsx",
-      "target": "lib_assets_mediaurl",
-      "confidence_score": 1.0
+      "target": "lib_assets_mediaurl"
     },
     {
       "relation": "imports",
@@ -2672,9 +2709,9 @@
       "source_file": "src/components/streaming/media-card.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_media_card_tsx",
-      "target": "lib_format_formatruntime",
-      "confidence_score": 1.0
+      "target": "lib_format_formatruntime"
     },
     {
       "relation": "imports",
@@ -2683,9 +2720,9 @@
       "source_file": "src/components/streaming/media-card.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_media_card_tsx",
-      "target": "lib_format_formattime",
-      "confidence_score": 1.0
+      "target": "lib_format_formattime"
     },
     {
       "relation": "imports",
@@ -2694,9 +2731,9 @@
       "source_file": "src/components/streaming/media-card.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_media_card_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "imports",
@@ -2705,9 +2742,9 @@
       "source_file": "src/components/streaming/media-grid.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_media_grid_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -2715,9 +2752,9 @@
       "source_file": "src/components/streaming/media-grid.tsx",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_media_grid_tsx",
-      "target": "streaming_media_grid_cn",
-      "confidence_score": 1.0
+      "target": "streaming_media_grid_cn"
     },
     {
       "relation": "imports",
@@ -2726,9 +2763,9 @@
       "source_file": "src/components/streaming/mobile-nav.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_mobile_nav_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -2736,9 +2773,9 @@
       "source_file": "src/components/streaming/mobile-nav.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_mobile_nav_tsx",
-      "target": "streaming_mobile_nav_mobilenav",
-      "confidence_score": 1.0
+      "target": "streaming_mobile_nav_mobilenav"
     },
     {
       "relation": "imports",
@@ -2747,9 +2784,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_mobile_nav_mobilenav",
-      "confidence_score": 1.0
+      "target": "streaming_mobile_nav_mobilenav"
     },
     {
       "relation": "imports",
@@ -2758,9 +2795,9 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_now_playing_details_tsx",
-      "target": "lib_assets_mediaurl",
-      "confidence_score": 1.0
+      "target": "lib_assets_mediaurl"
     },
     {
       "relation": "imports",
@@ -2769,9 +2806,9 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_now_playing_details_tsx",
-      "target": "lib_format_formatruntime",
-      "confidence_score": 1.0
+      "target": "lib_format_formatruntime"
     },
     {
       "relation": "imports",
@@ -2780,9 +2817,9 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_now_playing_details_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -2790,9 +2827,9 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_now_playing_details_tsx",
-      "target": "streaming_now_playing_details_share",
-      "confidence_score": 1.0
+      "target": "streaming_now_playing_details_share"
     },
     {
       "relation": "contains",
@@ -2800,9 +2837,9 @@
       "source_file": "src/components/streaming/settings-panel.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_settings_panel_tsx",
-      "target": "streaming_settings_panel_settingspanel",
-      "confidence_score": 1.0
+      "target": "streaming_settings_panel_settingspanel"
     },
     {
       "relation": "imports",
@@ -2811,9 +2848,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_settings_panel_settingspanel",
-      "confidence_score": 1.0
+      "target": "streaming_settings_panel_settingspanel"
     },
     {
       "relation": "imports",
@@ -2822,9 +2859,9 @@
       "source_file": "src/components/streaming/sidebar.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_sidebar_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -2832,9 +2869,9 @@
       "source_file": "src/components/streaming/sidebar.tsx",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_sidebar_tsx",
-      "target": "streaming_sidebar_cn",
-      "confidence_score": 1.0
+      "target": "streaming_sidebar_cn"
     },
     {
       "relation": "imports",
@@ -2843,9 +2880,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "hooks_usetorrentapi_usetorrentapi",
-      "confidence_score": 1.0
+      "target": "hooks_usetorrentapi_usetorrentapi"
     },
     {
       "relation": "imports",
@@ -2854,9 +2891,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "lib_films_tofilm",
-      "confidence_score": 1.0
+      "target": "lib_films_tofilm"
     },
     {
       "relation": "imports",
@@ -2865,9 +2902,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_top_bar_topbar",
-      "confidence_score": 1.0
+      "target": "streaming_top_bar_topbar"
     },
     {
       "relation": "imports",
@@ -2876,9 +2913,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_video_player_videoplayer",
-      "confidence_score": 1.0
+      "target": "streaming_video_player_videoplayer"
     },
     {
       "relation": "contains",
@@ -2886,9 +2923,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_flush",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_flush"
     },
     {
       "relation": "contains",
@@ -2896,9 +2933,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_ondragover",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_ondragover"
     },
     {
       "relation": "contains",
@@ -2906,9 +2943,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_ondragleave",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_ondragleave"
     },
     {
       "relation": "contains",
@@ -2916,9 +2953,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_ondrop",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_ondrop"
     },
     {
       "relation": "contains",
@@ -2926,9 +2963,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_begin",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_begin"
     },
     {
       "relation": "contains",
@@ -2936,9 +2973,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_playfile",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_playfile"
     },
     {
       "relation": "contains",
@@ -2946,9 +2983,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L263",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_playsaved",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_playsaved"
     },
     {
       "relation": "contains",
@@ -2956,9 +2993,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L269",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_streaming_app_tsx",
-      "target": "streaming_streaming_app_removecurrent",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_removecurrent"
     },
     {
       "relation": "calls",
@@ -2967,9 +3004,9 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L220",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "streaming_streaming_app_begin",
-      "target": "streaming_streaming_app_playfile",
-      "confidence_score": 1.0
+      "target": "streaming_streaming_app_playfile"
     },
     {
       "relation": "calls",
@@ -2978,8 +3015,18 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "streaming_streaming_app_playsaved",
-      "target": "streaming_streaming_app_begin",
+      "target": "streaming_streaming_app_begin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/top-bar.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_components_streaming_top_bar_tsx",
+      "target": "streaming_top_bar_onkey",
       "confidence_score": 1.0
     },
     {
@@ -2988,9 +3035,9 @@
       "source_file": "src/components/streaming/top-bar.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_top_bar_tsx",
-      "target": "streaming_top_bar_topbar",
-      "confidence_score": 1.0
+      "target": "streaming_top_bar_topbar"
     },
     {
       "relation": "imports",
@@ -2999,9 +3046,9 @@
       "source_file": "src/components/streaming/track-slider.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_track_slider_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "imports",
@@ -3010,9 +3057,20 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "lib_assets_mediaurl",
-      "confidence_score": 1.0
+      "target": "lib_assets_mediaurl"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/streaming/video-player.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_streaming_video_player_tsx",
+      "target": "lib_format_formatbytes"
     },
     {
       "relation": "imports",
@@ -3022,7 +3080,7 @@
       "source_location": "L16",
       "weight": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "lib_format_formatbytes",
+      "target": "lib_format_formatspeed",
       "confidence_score": 1.0
     },
     {
@@ -3032,9 +3090,9 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "lib_format_formattime",
-      "confidence_score": 1.0
+      "target": "lib_format_formattime"
     },
     {
       "relation": "imports",
@@ -3043,9 +3101,9 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -3053,9 +3111,9 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "streaming_video_player_withseek",
-      "confidence_score": 1.0
+      "target": "streaming_video_player_withseek"
     },
     {
       "relation": "contains",
@@ -3063,9 +3121,9 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "streaming_video_player_videoplayer",
-      "confidence_score": 1.0
+      "target": "streaming_video_player_videoplayer"
     },
     {
       "relation": "contains",
@@ -3073,30 +3131,9 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L301",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_streaming_video_player_tsx",
-      "target": "streaming_video_player_cn",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/ui/button.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_ui_button_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/ui/button.tsx",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "src_components_ui_button_tsx",
-      "target": "ui_button_cn",
-      "confidence_score": 1.0
+      "target": "streaming_video_player_cn"
     },
     {
       "relation": "contains",
@@ -3104,9 +3141,9 @@
       "source_file": "src/hooks/useTorrentApi.ts",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_hooks_usetorrentapi_ts",
-      "target": "hooks_usetorrentapi_usetorrentapi",
-      "confidence_score": 1.0
+      "target": "hooks_usetorrentapi_usetorrentapi"
     },
     {
       "relation": "contains",
@@ -3114,9 +3151,9 @@
       "source_file": "src/lib/assets.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_assets_ts",
-      "target": "lib_assets_mediaurl",
-      "confidence_score": 1.0
+      "target": "lib_assets_mediaurl"
     },
     {
       "relation": "contains",
@@ -3124,9 +3161,9 @@
       "source_file": "src/lib/films.ts",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_films_ts",
-      "target": "lib_films_tofilm",
-      "confidence_score": 1.0
+      "target": "lib_films_tofilm"
     },
     {
       "relation": "contains",
@@ -3134,9 +3171,9 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_format_ts",
-      "target": "lib_format_formattime",
-      "confidence_score": 1.0
+      "target": "lib_format_formattime"
     },
     {
       "relation": "contains",
@@ -3144,9 +3181,9 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_format_ts",
-      "target": "lib_format_formatruntime",
-      "confidence_score": 1.0
+      "target": "lib_format_formatruntime"
     },
     {
       "relation": "contains",
@@ -3154,7 +3191,28 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_format_ts",
+      "target": "lib_format_formatbytes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_lib_format_ts",
+      "target": "lib_format_formatspeed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/format.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "lib_format_formatspeed",
       "target": "lib_format_formatbytes",
       "confidence_score": 1.0
     },
@@ -3164,10 +3222,32 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_ts",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_ui_button_tsx",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_ui_button_tsx",
+      "target": "ui_button_cn"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "1f58b0fd0faf0892fdd68a905f0eaf01b055b39d"
 }

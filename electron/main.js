@@ -189,10 +189,12 @@ function registerIpc() {
 
 function saveProgress(payload) {
   if (!payload) return null
+  const currentTime = Number(payload.currentTime)
+  if (!Number.isFinite(currentTime)) return null
   return libraryStore.saveProgress(
     payload.infoHash,
     Number(payload.fileIndex),
-    Number(payload.currentTime),
+    currentTime,
     Number(payload.duration),
   )
 }
