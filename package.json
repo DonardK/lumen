@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "start": "electron .",
     "dist": "pnpm build && electron-builder --config electron-builder.yml",
+    "test": "node --test electron/*.test.js",
     "test:metadata": "node --test electron/metadata.test.js",
     "test:streams": "node --test electron/streamServer.test.js"
   },
