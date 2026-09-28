@@ -1,6 +1,7 @@
 appId: com.lumen.player
 productName: Lumen
 copyright: Copyright © 2026
+icon: build/icon.png
 directories:
   output: release
 files:
@@ -15,12 +16,30 @@ asar: true
 asarUnpack:
   - "**/node_modules/ffmpeg-static/**"
   - "**/node_modules/ffprobe-static/**"
+compression: normal
 npmRebuild: false
 buildDependenciesFromSource: false
 win:
+  icon: build/icon.ico
   target:
-    - nsis
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  perMachine: false
+  deleteAppDataOnUninstall: false
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  shortcutName: Lumen
+  uninstallDisplayName: Lumen
   artifactName: ${productName}-${version}-setup.${ext}
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}
 mac:
   target:
     - dmg

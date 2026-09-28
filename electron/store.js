@@ -33,6 +33,11 @@ function createStore(defaultCacheDir) {
         keepCacheOnClose: true,
         tmdbApiKey: '',
       },
+      window: {
+        width: 1280,
+        height: 840,
+        maximized: false,
+      },
     },
   })
 
@@ -112,6 +117,24 @@ function createStore(defaultCacheDir) {
       else current.add(hash)
       const next = [...current]
       store.set('watchlist', next)
+      return next
+    },
+
+    getWindowState() {
+      const saved = store.get('window')
+      if (!saved || typeof saved !== 'object') return {}
+      return { ...saved }
+    },
+
+    saveWindowState(state) {
+      const current = store.get('window')
+      const next = current && typeof current === 'object' ? { ...current } : {}
+      if (Number.isFinite(state?.x)) next.x = state.x
+      if (Number.isFinite(state?.y)) next.y = state.y
+      if (Number.isFinite(state?.width) && state.width > 0) next.width = state.width
+      if (Number.isFinite(state?.height) && state.height > 0) next.height = state.height
+      next.maximized = Boolean(state?.maximized)
+      store.set('window', next)
       return next
     },
 

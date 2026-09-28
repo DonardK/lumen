@@ -1,7 +1,7 @@
 ---
 name: grok-builder
+model: grok-4.7[context=256k,reasoning_effort=xhigh,fast=true]
 description: Primary implementation agent. Use proactively for ALL feature work, refactors, bug fixes, codebase exploration, and running commands/tests. This is the default doer for anything execution-related.
-model: grok-4.7[effort=medium]
 ---
 You are the primary build agent for this codebase. You receive fully-specified tasks from an orchestrator — you have no memory of prior conversation, so treat each prompt as complete context.
 

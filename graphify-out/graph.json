@@ -9,8 +9,152 @@
       "source_file": "vite.config.mjs",
       "source_location": "L1",
       "id": "vite_config_mjs",
-      "community": 9,
+      "community": 10,
       "norm_label": "vite.config.mjs"
+    },
+    {
+      "label": "lumenContentSecurityPolicy()",
+      "file_type": "code",
+      "source_file": "vite.config.mjs",
+      "source_location": "L23",
+      "id": "streaming_player_vite_config_lumencontentsecuritypolicy",
+      "community": 10,
+      "norm_label": "lumencontentsecuritypolicy()"
+    },
+    {
+      "label": "logger.js",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L1",
+      "id": "electron_logger_js",
+      "community": 7,
+      "norm_label": "logger.js"
+    },
+    {
+      "label": "stamp()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L11",
+      "id": "electron_logger_stamp",
+      "community": 7,
+      "norm_label": "stamp()"
+    },
+    {
+      "label": "textOf()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L19",
+      "id": "electron_logger_textof",
+      "community": 7,
+      "norm_label": "textof()"
+    },
+    {
+      "label": "line()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L33",
+      "id": "electron_logger_line",
+      "community": 7,
+      "norm_label": "line()"
+    },
+    {
+      "label": "pushBuffer()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L37",
+      "id": "electron_logger_pushbuffer",
+      "community": 7,
+      "norm_label": "pushbuffer()"
+    },
+    {
+      "label": "write()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L42",
+      "id": "electron_logger_write",
+      "community": 7,
+      "norm_label": "write()"
+    },
+    {
+      "label": "mirror()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L54",
+      "id": "electron_logger_mirror",
+      "community": 7,
+      "norm_label": "mirror()"
+    },
+    {
+      "label": "emit()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L64",
+      "id": "electron_logger_emit",
+      "community": 7,
+      "norm_label": "emit()"
+    },
+    {
+      "label": "info()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L69",
+      "id": "electron_logger_info",
+      "community": 7,
+      "norm_label": "info()"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L73",
+      "id": "electron_logger_warn",
+      "community": 7,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "error()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L77",
+      "id": "electron_logger_error",
+      "community": 7,
+      "norm_label": "error()"
+    },
+    {
+      "label": "rotate()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L81",
+      "id": "electron_logger_rotate",
+      "community": 7,
+      "norm_label": "rotate()"
+    },
+    {
+      "label": "attach()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L93",
+      "id": "electron_logger_attach",
+      "community": 7,
+      "norm_label": "attach()"
+    },
+    {
+      "label": "flush()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L107",
+      "id": "electron_logger_flush",
+      "community": 7,
+      "norm_label": "flush()"
+    },
+    {
+      "label": "logPath()",
+      "file_type": "code",
+      "source_file": "electron/logger.js",
+      "source_location": "L118",
+      "id": "electron_logger_logpath",
+      "community": 7,
+      "norm_label": "logpath()"
     },
     {
       "label": "main.js",
@@ -18,107 +162,206 @@
       "source_file": "electron/main.js",
       "source_location": "L1",
       "id": "electron_main_js",
-      "community": 5,
+      "community": 1,
       "norm_label": "main.js"
     },
     {
       "label": "loadEnvFile()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L15",
+      "source_location": "L24",
       "id": "electron_main_loadenvfile",
-      "community": 5,
+      "community": 1,
       "norm_label": "loadenvfile()"
+    },
+    {
+      "label": "importTmdbKey()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L71",
+      "id": "electron_main_importtmdbkey",
+      "community": 1,
+      "norm_label": "importtmdbkey()"
     },
     {
       "label": "cacheDir()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L38",
+      "source_location": "L81",
       "id": "electron_main_cachedir",
-      "community": 5,
+      "community": 1,
       "norm_label": "cachedir()"
     },
     {
       "label": "tmdbKey()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L45",
+      "source_location": "L88",
       "id": "electron_main_tmdbkey",
-      "community": 5,
+      "community": 1,
       "norm_label": "tmdbkey()"
     },
     {
       "label": "isInside()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L49",
+      "source_location": "L92",
       "id": "electron_main_isinside",
-      "community": 5,
+      "community": 1,
       "norm_label": "isinside()"
     },
     {
       "label": "send()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L55",
+      "source_location": "L98",
       "id": "electron_main_send",
-      "community": 5,
+      "community": 1,
       "norm_label": "send()"
     },
     {
       "label": "toResult()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L60",
+      "source_location": "L103",
       "id": "electron_main_toresult",
-      "community": 5,
+      "community": 1,
       "norm_label": "toresult()"
     },
     {
       "label": "buildEntry()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L73",
+      "source_location": "L116",
       "id": "electron_main_buildentry",
-      "community": 5,
+      "community": 1,
       "norm_label": "buildentry()"
     },
     {
       "label": "registerIpc()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L96",
+      "source_location": "L139",
       "id": "electron_main_registeripc",
-      "community": 5,
+      "community": 1,
       "norm_label": "registeripc()"
     },
     {
       "label": "saveProgress()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L190",
+      "source_location": "L233",
       "id": "electron_main_saveprogress",
-      "community": 5,
+      "community": 1,
       "norm_label": "saveprogress()"
+    },
+    {
+      "label": "workAreas()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L245",
+      "id": "electron_main_workareas",
+      "community": 1,
+      "norm_label": "workareas()"
+    },
+    {
+      "label": "persistWindowState()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L254",
+      "id": "electron_main_persistwindowstate",
+      "community": 1,
+      "norm_label": "persistwindowstate()"
+    },
+    {
+      "label": "allowCrashReload()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L270",
+      "id": "electron_main_allowcrashreload",
+      "community": 1,
+      "norm_label": "allowcrashreload()"
+    },
+    {
+      "label": "onRendererGone()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L277",
+      "id": "electron_main_onrenderergone",
+      "community": 1,
+      "norm_label": "onrenderergone()"
+    },
+    {
+      "label": "allowNavigation()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L301",
+      "id": "electron_main_allownavigation",
+      "community": 1,
+      "norm_label": "allownavigation()"
+    },
+    {
+      "label": "blockPackagedShortcuts()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L321",
+      "id": "electron_main_blockpackagedshortcuts",
+      "community": 1,
+      "norm_label": "blockpackagedshortcuts()"
     },
     {
       "label": "createWindow()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L202",
+      "source_location": "L332",
       "id": "electron_main_createwindow",
-      "community": 5,
+      "community": 1,
       "norm_label": "createwindow()"
     },
     {
       "label": "shutdown()",
       "file_type": "code",
       "source_file": "electron/main.js",
-      "source_location": "L248",
+      "source_location": "L415",
       "id": "electron_main_shutdown",
-      "community": 5,
+      "community": 1,
       "norm_label": "shutdown()"
+    },
+    {
+      "label": "failStartup()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L421",
+      "id": "electron_main_failstartup",
+      "community": 1,
+      "norm_label": "failstartup()"
+    },
+    {
+      "label": "boot()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L433",
+      "id": "electron_main_boot",
+      "community": 1,
+      "norm_label": "boot()"
+    },
+    {
+      "label": "focusExisting()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L454",
+      "id": "electron_main_focusexisting",
+      "community": 1,
+      "norm_label": "focusexisting()"
+    },
+    {
+      "label": "bindSingleInstance()",
+      "file_type": "code",
+      "source_file": "electron/main.js",
+      "source_location": "L463",
+      "id": "electron_main_bindsingleinstance",
+      "community": 1,
+      "norm_label": "bindsingleinstance()"
     },
     {
       "label": "metadata.js",
@@ -126,7 +369,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L1",
       "id": "electron_metadata_js",
-      "community": 5,
+      "community": 1,
       "norm_label": "metadata.js"
     },
     {
@@ -135,7 +378,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L4",
       "id": "electron_metadata_parsetitleyear",
-      "community": 5,
+      "community": 1,
       "norm_label": "parsetitleyear()"
     },
     {
@@ -144,7 +387,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L24",
       "id": "electron_metadata_tagsfor",
-      "community": 5,
+      "community": 1,
       "norm_label": "tagsfor()"
     },
     {
@@ -153,7 +396,7 @@
       "source_file": "electron/metadata.js",
       "source_location": "L35",
       "id": "electron_metadata_lookupmovie",
-      "community": 5,
+      "community": 1,
       "norm_label": "lookupmovie()"
     },
     {
@@ -162,7 +405,7 @@
       "source_file": "electron/metadata.test.js",
       "source_location": "L1",
       "id": "electron_metadata_test_js",
-      "community": 10,
+      "community": 11,
       "norm_label": "metadata.test.js"
     },
     {
@@ -171,7 +414,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L1",
       "id": "electron_preload_js",
-      "community": 2,
+      "community": 4,
       "norm_label": "preload.js"
     },
     {
@@ -180,7 +423,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L3",
       "id": "electron_preload_subscribe",
-      "community": 2,
+      "community": 4,
       "norm_label": "subscribe()"
     },
     {
@@ -189,7 +432,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L10",
       "id": "electron_preload_addtorrent",
-      "community": 4,
+      "community": 6,
       "norm_label": "addtorrent()"
     },
     {
@@ -198,7 +441,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L13",
       "id": "electron_preload_selectfile",
-      "community": 2,
+      "community": 4,
       "norm_label": "selectfile()"
     },
     {
@@ -207,7 +450,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L16",
       "id": "electron_preload_removetorrent",
-      "community": 2,
+      "community": 4,
       "norm_label": "removetorrent()"
     },
     {
@@ -216,7 +459,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L19",
       "id": "electron_preload_picktorrentfile",
-      "community": 2,
+      "community": 4,
       "norm_label": "picktorrentfile()"
     },
     {
@@ -225,7 +468,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L22",
       "id": "electron_preload_pickcachedir",
-      "community": 2,
+      "community": 4,
       "norm_label": "pickcachedir()"
     },
     {
@@ -234,7 +477,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L25",
       "id": "electron_preload_getpathforfile",
-      "community": 2,
+      "community": 4,
       "norm_label": "getpathforfile()"
     },
     {
@@ -243,7 +486,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L32",
       "id": "electron_preload_getlibrary",
-      "community": 2,
+      "community": 4,
       "norm_label": "getlibrary()"
     },
     {
@@ -252,7 +495,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L35",
       "id": "electron_preload_upsertlibrary",
-      "community": 2,
+      "community": 4,
       "norm_label": "upsertlibrary()"
     },
     {
@@ -261,7 +504,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L38",
       "id": "electron_preload_removelibraryentry",
-      "community": 2,
+      "community": 4,
       "norm_label": "removelibraryentry()"
     },
     {
@@ -270,7 +513,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L41",
       "id": "electron_preload_getwatchlist",
-      "community": 2,
+      "community": 4,
       "norm_label": "getwatchlist()"
     },
     {
@@ -279,7 +522,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L44",
       "id": "electron_preload_togglewatchlist",
-      "community": 2,
+      "community": 4,
       "norm_label": "togglewatchlist()"
     },
     {
@@ -288,7 +531,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L47",
       "id": "electron_preload_getsettings",
-      "community": 2,
+      "community": 4,
       "norm_label": "getsettings()"
     },
     {
@@ -297,7 +540,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L50",
       "id": "electron_preload_updatesettings",
-      "community": 2,
+      "community": 4,
       "norm_label": "updatesettings()"
     },
     {
@@ -306,7 +549,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L53",
       "id": "electron_preload_saveprogress",
-      "community": 2,
+      "community": 4,
       "norm_label": "saveprogress()"
     },
     {
@@ -315,7 +558,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L56",
       "id": "electron_preload_flushprogress",
-      "community": 2,
+      "community": 4,
       "norm_label": "flushprogress()"
     },
     {
@@ -324,7 +567,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L59",
       "id": "electron_preload_onstats",
-      "community": 2,
+      "community": 4,
       "norm_label": "onstats()"
     },
     {
@@ -333,7 +576,7 @@
       "source_file": "electron/preload.js",
       "source_location": "L62",
       "id": "electron_preload_ontorrenterror",
-      "community": 2,
+      "community": 4,
       "norm_label": "ontorrenterror()"
     },
     {
@@ -342,7 +585,7 @@
       "source_file": "electron/store.js",
       "source_location": "L1",
       "id": "electron_store_js",
-      "community": 7,
+      "community": 1,
       "norm_label": "store.js"
     },
     {
@@ -351,7 +594,7 @@
       "source_file": "electron/store.js",
       "source_location": "L21",
       "id": "electron_store_ishexhash",
-      "community": 7,
+      "community": 1,
       "norm_label": "ishexhash()"
     },
     {
@@ -360,7 +603,7 @@
       "source_file": "electron/store.js",
       "source_location": "L25",
       "id": "electron_store_createstore",
-      "community": 7,
+      "community": 1,
       "norm_label": "createstore()"
     },
     {
@@ -369,7 +612,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L1",
       "id": "electron_streamserver_js",
-      "community": 6,
+      "community": 0,
       "norm_label": "streamserver.js"
     },
     {
@@ -378,7 +621,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L23",
       "id": "electron_streamserver_extensionof",
-      "community": 6,
+      "community": 0,
       "norm_label": "extensionof()"
     },
     {
@@ -387,7 +630,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L29",
       "id": "electron_streamserver_isvideofile",
-      "community": 6,
+      "community": 0,
       "norm_label": "isvideofile()"
     },
     {
@@ -396,7 +639,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L35",
       "id": "electron_streamserver_listvideofiles",
-      "community": 6,
+      "community": 0,
       "norm_label": "listvideofiles()"
     },
     {
@@ -405,7 +648,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L51",
       "id": "electron_streamserver_choosevideofiles",
-      "community": 6,
+      "community": 0,
       "norm_label": "choosevideofiles()"
     },
     {
@@ -414,7 +657,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L71",
       "id": "electron_streamserver_piecerange",
-      "community": 6,
+      "community": 0,
       "norm_label": "piecerange()"
     },
     {
@@ -423,7 +666,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L81",
       "id": "electron_streamserver_deselectrange",
-      "community": 6,
+      "community": 0,
       "norm_label": "deselectrange()"
     },
     {
@@ -432,7 +675,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L94",
       "id": "electron_streamserver_prioritizeplayback",
-      "community": 6,
+      "community": 0,
       "norm_label": "prioritizeplayback()"
     },
     {
@@ -441,7 +684,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L120",
       "id": "electron_streamserver_directserver",
-      "community": 6,
+      "community": 0,
       "norm_label": "directserver"
     },
     {
@@ -450,7 +693,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L121",
       "id": "electron_streamserver_directserver_constructor",
-      "community": 6,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -459,7 +702,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L125",
       "id": "electron_streamserver_directserver_ensure",
-      "community": 6,
+      "community": 0,
       "norm_label": ".ensure()"
     },
     {
@@ -468,7 +711,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L154",
       "id": "electron_streamserver_directserver_close",
-      "community": 6,
+      "community": 0,
       "norm_label": ".close()"
     },
     {
@@ -477,7 +720,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L163",
       "id": "electron_streamserver_directserver_closeall",
-      "community": 6,
+      "community": 0,
       "norm_label": ".closeall()"
     },
     {
@@ -486,7 +729,7 @@
       "source_file": "electron/streamServer.js",
       "source_location": "L168",
       "id": "electron_streamserver_directstreamurl",
-      "community": 3,
+      "community": 0,
       "norm_label": "directstreamurl()"
     },
     {
@@ -495,7 +738,7 @@
       "source_file": "electron/streamServer.test.js",
       "source_location": "L1",
       "id": "electron_streamserver_test_js",
-      "community": 8,
+      "community": 9,
       "norm_label": "streamserver.test.js"
     },
     {
@@ -504,7 +747,7 @@
       "source_file": "electron/streamServer.test.js",
       "source_location": "L5",
       "id": "electron_streamserver_test_file",
-      "community": 8,
+      "community": 9,
       "norm_label": "file()"
     },
     {
@@ -513,7 +756,7 @@
       "source_file": "electron/streamServer.test.js",
       "source_location": "L76",
       "id": "electron_streamserver_test_faketorrent",
-      "community": 8,
+      "community": 9,
       "norm_label": "faketorrent()"
     },
     {
@@ -522,7 +765,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L1",
       "id": "electron_torrentmanager_js",
-      "community": 3,
+      "community": 0,
       "norm_label": "torrentmanager.js"
     },
     {
@@ -531,7 +774,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L19",
       "id": "electron_torrentmanager_apperror",
-      "community": 3,
+      "community": 0,
       "norm_label": "apperror()"
     },
     {
@@ -540,7 +783,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L25",
       "id": "electron_torrentmanager_classifyinput",
-      "community": 3,
+      "community": 0,
       "norm_label": "classifyinput()"
     },
     {
@@ -549,7 +792,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L58",
       "id": "electron_torrentmanager_cachefolder",
-      "community": 3,
+      "community": 0,
       "norm_label": "cachefolder()"
     },
     {
@@ -558,7 +801,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L62",
       "id": "electron_torrentmanager_torrentmanager",
-      "community": 3,
+      "community": 0,
       "norm_label": "torrentmanager"
     },
     {
@@ -567,7 +810,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L63",
       "id": "electron_torrentmanager_torrentmanager_constructor",
-      "community": 3,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -576,7 +819,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L89",
       "id": "electron_torrentmanager_torrentmanager_add",
-      "community": 3,
+      "community": 0,
       "norm_label": ".add()"
     },
     {
@@ -585,7 +828,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L144",
       "id": "electron_torrentmanager_torrentmanager_whenready",
-      "community": 3,
+      "community": 0,
       "norm_label": "._whenready()"
     },
     {
@@ -594,7 +837,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L170",
       "id": "electron_torrentmanager_torrentmanager_selectfile",
-      "community": 3,
+      "community": 0,
       "norm_label": ".selectfile()"
     },
     {
@@ -603,7 +846,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L203",
       "id": "electron_torrentmanager_torrentmanager_remove",
-      "community": 3,
+      "community": 0,
       "norm_label": ".remove()"
     },
     {
@@ -612,7 +855,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L215",
       "id": "electron_torrentmanager_torrentmanager_has",
-      "community": 3,
+      "community": 0,
       "norm_label": ".has()"
     },
     {
@@ -621,7 +864,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L219",
       "id": "electron_torrentmanager_torrentmanager_shutdown",
-      "community": 3,
+      "community": 0,
       "norm_label": ".shutdown()"
     },
     {
@@ -630,7 +873,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L253",
       "id": "electron_torrentmanager_torrentmanager_existing",
-      "community": 3,
+      "community": 0,
       "norm_label": "._existing()"
     },
     {
@@ -639,7 +882,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L261",
       "id": "electron_torrentmanager_torrentmanager_summary",
-      "community": 3,
+      "community": 0,
       "norm_label": "._summary()"
     },
     {
@@ -648,7 +891,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L273",
       "id": "electron_torrentmanager_torrentmanager_focus",
-      "community": 3,
+      "community": 0,
       "norm_label": "._focus()"
     },
     {
@@ -657,7 +900,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L294",
       "id": "electron_torrentmanager_torrentmanager_pause",
-      "community": 3,
+      "community": 0,
       "norm_label": "._pause()"
     },
     {
@@ -666,7 +909,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L313",
       "id": "electron_torrentmanager_torrentmanager_broadcaststats",
-      "community": 3,
+      "community": 0,
       "norm_label": "._broadcaststats()"
     },
     {
@@ -675,7 +918,7 @@
       "source_file": "electron/torrentManager.js",
       "source_location": "L347",
       "id": "electron_torrentmanager_torrentmanager_normalizeerror",
-      "community": 3,
+      "community": 0,
       "norm_label": "._normalizeerror()"
     },
     {
@@ -684,7 +927,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L1",
       "id": "electron_transcodeserver_js",
-      "community": 1,
+      "community": 3,
       "norm_label": "transcodeserver.js"
     },
     {
@@ -693,7 +936,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L9",
       "id": "electron_transcodeserver_apperror",
-      "community": 1,
+      "community": 3,
       "norm_label": "apperror()"
     },
     {
@@ -702,7 +945,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L15",
       "id": "electron_transcodeserver_binarypath",
-      "community": 1,
+      "community": 3,
       "norm_label": "binarypath()"
     },
     {
@@ -711,7 +954,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L34",
       "id": "electron_transcodeserver_getffmpeg",
-      "community": 1,
+      "community": 3,
       "norm_label": "getffmpeg()"
     },
     {
@@ -720,7 +963,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L50",
       "id": "electron_transcodeserver_asnodestream",
-      "community": 1,
+      "community": 3,
       "norm_label": "asnodestream()"
     },
     {
@@ -729,7 +972,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L71",
       "id": "electron_transcodeserver_readsample",
-      "community": 1,
+      "community": 3,
       "norm_label": "readsample()"
     },
     {
@@ -738,7 +981,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L130",
       "id": "electron_transcodeserver_classify",
-      "community": 1,
+      "community": 3,
       "norm_label": "classify()"
     },
     {
@@ -747,7 +990,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L162",
       "id": "electron_transcodeserver_probewithffprobe",
-      "community": 1,
+      "community": 3,
       "norm_label": "probewithffprobe()"
     },
     {
@@ -756,7 +999,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L172",
       "id": "electron_transcodeserver_probefile",
-      "community": 1,
+      "community": 3,
       "norm_label": "probefile()"
     },
     {
@@ -765,7 +1008,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L193",
       "id": "electron_transcodeserver_islocaladdress",
-      "community": 1,
+      "community": 3,
       "norm_label": "islocaladdress()"
     },
     {
@@ -774,7 +1017,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L201",
       "id": "electron_transcodeserver_ignoredffmpegerror",
-      "community": 1,
+      "community": 3,
       "norm_label": "ignoredffmpegerror()"
     },
     {
@@ -783,7 +1026,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L208",
       "id": "electron_transcodeserver_transcodeserver",
-      "community": 1,
+      "community": 3,
       "norm_label": "transcodeserver"
     },
     {
@@ -792,7 +1035,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L209",
       "id": "electron_transcodeserver_transcodeserver_constructor",
-      "community": 1,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -801,7 +1044,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L218",
       "id": "electron_transcodeserver_transcodeserver_ensure",
-      "community": 1,
+      "community": 3,
       "norm_label": ".ensure()"
     },
     {
@@ -810,7 +1053,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L238",
       "id": "electron_transcodeserver_transcodeserver_register",
-      "community": 1,
+      "community": 3,
       "norm_label": ".register()"
     },
     {
@@ -819,7 +1062,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L242",
       "id": "electron_transcodeserver_transcodeserver_unregister",
-      "community": 1,
+      "community": 3,
       "norm_label": ".unregister()"
     },
     {
@@ -828,7 +1071,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L251",
       "id": "electron_transcodeserver_transcodeserver_streamurl",
-      "community": 1,
+      "community": 3,
       "norm_label": ".streamurl()"
     },
     {
@@ -837,7 +1080,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L260",
       "id": "electron_transcodeserver_transcodeserver_killall",
-      "community": 1,
+      "community": 3,
       "norm_label": ".killall()"
     },
     {
@@ -846,7 +1089,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L270",
       "id": "electron_transcodeserver_transcodeserver_stop",
-      "community": 1,
+      "community": 3,
       "norm_label": "._stop()"
     },
     {
@@ -855,7 +1098,7 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L281",
       "id": "electron_transcodeserver_transcodeserver_handle",
-      "community": 1,
+      "community": 3,
       "norm_label": "._handle()"
     },
     {
@@ -864,8 +1107,206 @@
       "source_file": "electron/transcodeServer.js",
       "source_location": "L364",
       "id": "electron_transcodeserver_transcodeserver_spawn",
-      "community": 1,
+      "community": 3,
       "norm_label": "._spawn()"
+    },
+    {
+      "label": "windowState.js",
+      "file_type": "code",
+      "source_file": "electron/windowState.js",
+      "source_location": "L1",
+      "id": "electron_windowstate_js",
+      "community": 8,
+      "norm_label": "windowstate.js"
+    },
+    {
+      "label": "asRect()",
+      "file_type": "code",
+      "source_file": "electron/windowState.js",
+      "source_location": "L6",
+      "id": "electron_windowstate_asrect",
+      "community": 8,
+      "norm_label": "asrect()"
+    },
+    {
+      "label": "rectsIntersect()",
+      "file_type": "code",
+      "source_file": "electron/windowState.js",
+      "source_location": "L17",
+      "id": "electron_windowstate_rectsintersect",
+      "community": 8,
+      "norm_label": "rectsintersect()"
+    },
+    {
+      "label": "clampSize()",
+      "file_type": "code",
+      "source_file": "electron/windowState.js",
+      "source_location": "L29",
+      "id": "electron_windowstate_clampsize",
+      "community": 8,
+      "norm_label": "clampsize()"
+    },
+    {
+      "label": "resolveWindowBounds()",
+      "file_type": "code",
+      "source_file": "electron/windowState.js",
+      "source_location": "L34",
+      "id": "electron_windowstate_resolvewindowbounds",
+      "community": 8,
+      "norm_label": "resolvewindowbounds()"
+    },
+    {
+      "label": "windowState.test.js",
+      "file_type": "code",
+      "source_file": "electron/windowState.test.js",
+      "source_location": "L1",
+      "id": "electron_windowstate_test_js",
+      "community": 12,
+      "norm_label": "windowstate.test.js"
+    },
+    {
+      "label": "make-icon.js",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L1",
+      "id": "scripts_make_icon_js",
+      "community": 5,
+      "norm_label": "make-icon.js"
+    },
+    {
+      "label": "pageShell()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L26",
+      "id": "scripts_make_icon_pageshell",
+      "community": 5,
+      "norm_label": "pageshell()"
+    },
+    {
+      "label": "dist()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L33",
+      "id": "scripts_make_icon_dist",
+      "community": 5,
+      "norm_label": "dist()"
+    },
+    {
+      "label": "analyze()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L37",
+      "id": "scripts_make_icon_analyze",
+      "community": 5,
+      "norm_label": "analyze()"
+    },
+    {
+      "label": "assertIcon()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L63",
+      "id": "scripts_make_icon_asserticon",
+      "community": 5,
+      "norm_label": "asserticon()"
+    },
+    {
+      "label": "sample()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L85",
+      "id": "scripts_make_icon_sample",
+      "community": 5,
+      "norm_label": "sample()"
+    },
+    {
+      "label": "assertSamples()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L92",
+      "id": "scripts_make_icon_assertsamples",
+      "community": 5,
+      "norm_label": "assertsamples()"
+    },
+    {
+      "label": "pngSize()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L105",
+      "id": "scripts_make_icon_pngsize",
+      "community": 5,
+      "norm_label": "pngsize()"
+    },
+    {
+      "label": "assertPngBuffer()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L116",
+      "id": "scripts_make_icon_assertpngbuffer",
+      "community": 5,
+      "norm_label": "assertpngbuffer()"
+    },
+    {
+      "label": "buildIco()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L131",
+      "id": "scripts_make_icon_buildico",
+      "community": 5,
+      "norm_label": "buildico()"
+    },
+    {
+      "label": "fit()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L163",
+      "id": "scripts_make_icon_fit",
+      "community": 5,
+      "norm_label": "fit()"
+    },
+    {
+      "label": "delay()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L171",
+      "id": "scripts_make_icon_delay",
+      "community": 5,
+      "norm_label": "delay()"
+    },
+    {
+      "label": "captureSize()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L175",
+      "id": "scripts_make_icon_capturesize",
+      "community": 5,
+      "norm_label": "capturesize()"
+    },
+    {
+      "label": "showFrame()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L192",
+      "id": "scripts_make_icon_showframe",
+      "community": 5,
+      "norm_label": "showframe()"
+    },
+    {
+      "label": "rasterizeGroups()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L222",
+      "id": "scripts_make_icon_rasterizegroups",
+      "community": 5,
+      "norm_label": "rasterizegroups()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L272",
+      "id": "scripts_make_icon_main",
+      "community": 5,
+      "norm_label": "main()"
     },
     {
       "label": "main.tsx",
@@ -873,7 +1314,7 @@
       "source_file": "src/main.tsx",
       "source_location": "L1",
       "id": "src_main_tsx",
-      "community": 11,
+      "community": 13,
       "norm_label": "main.tsx"
     },
     {
@@ -882,7 +1323,7 @@
       "source_file": "src/types.ts",
       "source_location": "L1",
       "id": "src_types_ts",
-      "community": 12,
+      "community": 14,
       "norm_label": "types.ts"
     },
     {
@@ -891,7 +1332,7 @@
       "source_file": "src/vite-env.d.ts",
       "source_location": "L1",
       "id": "src_vite_env_d_ts",
-      "community": 13,
+      "community": 15,
       "norm_label": "vite-env.d.ts"
     },
     {
@@ -900,7 +1341,7 @@
       "source_file": "src/components/streaming/ambient-backdrop.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_ambient_backdrop_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "ambient-backdrop.tsx"
     },
     {
@@ -909,7 +1350,7 @@
       "source_file": "src/components/streaming/ambient-backdrop.tsx",
       "source_location": "L4",
       "id": "streaming_ambient_backdrop_ambientbackdrop",
-      "community": 0,
+      "community": 2,
       "norm_label": "ambientbackdrop()"
     },
     {
@@ -918,7 +1359,7 @@
       "source_file": "src/components/streaming/library-nav.ts",
       "source_location": "L1",
       "id": "src_components_streaming_library_nav_ts",
-      "community": 4,
+      "community": 6,
       "norm_label": "library-nav.ts"
     },
     {
@@ -927,7 +1368,7 @@
       "source_file": "src/components/streaming/library-nav.ts",
       "source_location": "L23",
       "id": "streaming_library_nav_matchesfilter",
-      "community": 4,
+      "community": 6,
       "norm_label": "matchesfilter()"
     },
     {
@@ -936,7 +1377,7 @@
       "source_file": "src/components/streaming/media-card.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_media_card_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "media-card.tsx"
     },
     {
@@ -945,7 +1386,7 @@
       "source_file": "src/components/streaming/media-grid.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_media_grid_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "media-grid.tsx"
     },
     {
@@ -954,7 +1395,7 @@
       "source_file": "src/components/streaming/media-grid.tsx",
       "source_location": "L58",
       "id": "streaming_media_grid_cn",
-      "community": 0,
+      "community": 2,
       "norm_label": "cn()"
     },
     {
@@ -963,7 +1404,7 @@
       "source_file": "src/components/streaming/mobile-nav.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_mobile_nav_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "mobile-nav.tsx"
     },
     {
@@ -972,7 +1413,7 @@
       "source_file": "src/components/streaming/mobile-nav.tsx",
       "source_location": "L9",
       "id": "streaming_mobile_nav_mobilenav",
-      "community": 0,
+      "community": 2,
       "norm_label": "mobilenav()"
     },
     {
@@ -981,7 +1422,7 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_now_playing_details_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "now-playing-details.tsx"
     },
     {
@@ -990,7 +1431,7 @@
       "source_file": "src/components/streaming/now-playing-details.tsx",
       "source_location": "L33",
       "id": "streaming_now_playing_details_share",
-      "community": 0,
+      "community": 2,
       "norm_label": "share()"
     },
     {
@@ -999,7 +1440,7 @@
       "source_file": "src/components/streaming/settings-panel.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_settings_panel_tsx",
-      "community": 4,
+      "community": 6,
       "norm_label": "settings-panel.tsx"
     },
     {
@@ -1008,7 +1449,7 @@
       "source_file": "src/components/streaming/settings-panel.tsx",
       "source_location": "L12",
       "id": "streaming_settings_panel_settingspanel",
-      "community": 4,
+      "community": 6,
       "norm_label": "settingspanel()"
     },
     {
@@ -1017,7 +1458,7 @@
       "source_file": "src/components/streaming/sidebar.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_sidebar_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "sidebar.tsx"
     },
     {
@@ -1026,7 +1467,7 @@
       "source_file": "src/components/streaming/sidebar.tsx",
       "source_location": "L42",
       "id": "streaming_sidebar_cn",
-      "community": 0,
+      "community": 2,
       "norm_label": "cn()"
     },
     {
@@ -1035,7 +1476,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_streaming_app_tsx",
-      "community": 4,
+      "community": 6,
       "norm_label": "streaming-app.tsx"
     },
     {
@@ -1044,7 +1485,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L135",
       "id": "streaming_streaming_app_flush",
-      "community": 2,
+      "community": 4,
       "norm_label": "flush()"
     },
     {
@@ -1053,7 +1494,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L154",
       "id": "streaming_streaming_app_ondragover",
-      "community": 4,
+      "community": 6,
       "norm_label": "ondragover()"
     },
     {
@@ -1062,7 +1503,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L159",
       "id": "streaming_streaming_app_ondragleave",
-      "community": 4,
+      "community": 6,
       "norm_label": "ondragleave()"
     },
     {
@@ -1071,7 +1512,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L162",
       "id": "streaming_streaming_app_ondrop",
-      "community": 2,
+      "community": 4,
       "norm_label": "ondrop()"
     },
     {
@@ -1080,7 +1521,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L194",
       "id": "streaming_streaming_app_begin",
-      "community": 4,
+      "community": 6,
       "norm_label": "begin()"
     },
     {
@@ -1089,7 +1530,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L232",
       "id": "streaming_streaming_app_playfile",
-      "community": 4,
+      "community": 6,
       "norm_label": "playfile()"
     },
     {
@@ -1098,7 +1539,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L265",
       "id": "streaming_streaming_app_playsaved",
-      "community": 4,
+      "community": 6,
       "norm_label": "playsaved()"
     },
     {
@@ -1107,7 +1548,7 @@
       "source_file": "src/components/streaming/streaming-app.tsx",
       "source_location": "L271",
       "id": "streaming_streaming_app_removecurrent",
-      "community": 4,
+      "community": 6,
       "norm_label": "removecurrent()"
     },
     {
@@ -1116,7 +1557,7 @@
       "source_file": "src/components/streaming/top-bar.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_top_bar_tsx",
-      "community": 4,
+      "community": 6,
       "norm_label": "top-bar.tsx"
     },
     {
@@ -1125,7 +1566,7 @@
       "source_file": "src/components/streaming/top-bar.tsx",
       "source_location": "L24",
       "id": "streaming_top_bar_onkey",
-      "community": 4,
+      "community": 6,
       "norm_label": "onkey()"
     },
     {
@@ -1134,7 +1575,7 @@
       "source_file": "src/components/streaming/track-slider.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_track_slider_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "track-slider.tsx"
     },
     {
@@ -1143,7 +1584,7 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L1",
       "id": "src_components_streaming_video_player_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "video-player.tsx"
     },
     {
@@ -1152,7 +1593,7 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L83",
       "id": "streaming_video_player_withseek",
-      "community": 0,
+      "community": 2,
       "norm_label": "withseek()"
     },
     {
@@ -1161,7 +1602,7 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L89",
       "id": "streaming_video_player_videoplayer",
-      "community": 0,
+      "community": 2,
       "norm_label": "videoplayer()"
     },
     {
@@ -1170,7 +1611,7 @@
       "source_file": "src/components/streaming/video-player.tsx",
       "source_location": "L328",
       "id": "streaming_video_player_cn",
-      "community": 0,
+      "community": 2,
       "norm_label": "cn()"
     },
     {
@@ -1179,7 +1620,7 @@
       "source_file": "src/hooks/useTorrentApi.ts",
       "source_location": "L1",
       "id": "src_hooks_usetorrentapi_ts",
-      "community": 4,
+      "community": 6,
       "norm_label": "usetorrentapi.ts"
     },
     {
@@ -1188,7 +1629,7 @@
       "source_file": "src/hooks/useTorrentApi.ts",
       "source_location": "L16",
       "id": "hooks_usetorrentapi_usetorrentapi",
-      "community": 4,
+      "community": 6,
       "norm_label": "usetorrentapi()"
     },
     {
@@ -1197,7 +1638,7 @@
       "source_file": "src/lib/assets.ts",
       "source_location": "L1",
       "id": "src_lib_assets_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "assets.ts"
     },
     {
@@ -1206,7 +1647,7 @@
       "source_file": "src/lib/assets.ts",
       "source_location": "L1",
       "id": "lib_assets_mediaurl",
-      "community": 0,
+      "community": 2,
       "norm_label": "mediaurl()"
     },
     {
@@ -1215,7 +1656,7 @@
       "source_file": "src/lib/films.ts",
       "source_location": "L1",
       "id": "src_lib_films_ts",
-      "community": 4,
+      "community": 6,
       "norm_label": "films.ts"
     },
     {
@@ -1224,7 +1665,7 @@
       "source_file": "src/lib/films.ts",
       "source_location": "L21",
       "id": "lib_films_tofilm",
-      "community": 4,
+      "community": 6,
       "norm_label": "tofilm()"
     },
     {
@@ -1233,7 +1674,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L1",
       "id": "src_lib_format_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "format.ts"
     },
     {
@@ -1242,7 +1683,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L1",
       "id": "lib_format_formattime",
-      "community": 0,
+      "community": 2,
       "norm_label": "formattime()"
     },
     {
@@ -1251,7 +1692,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L11",
       "id": "lib_format_formatruntime",
-      "community": 0,
+      "community": 2,
       "norm_label": "formatruntime()"
     },
     {
@@ -1260,7 +1701,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L16",
       "id": "lib_format_formatbytes",
-      "community": 0,
+      "community": 2,
       "norm_label": "formatbytes()"
     },
     {
@@ -1269,7 +1710,7 @@
       "source_file": "src/lib/format.ts",
       "source_location": "L24",
       "id": "lib_format_formatspeed",
-      "community": 0,
+      "community": 2,
       "norm_label": "formatspeed()"
     },
     {
@@ -1278,7 +1719,7 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L1",
       "id": "src_lib_utils_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "utils.ts"
     },
     {
@@ -1287,15 +1728,42 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "id": "lib_utils_cn",
-      "community": 0,
+      "community": 2,
       "norm_label": "cn()"
+    },
+    {
+      "label": "forceTaskbarVariant()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L28",
+      "community": 5,
+      "norm_label": "forcetaskbarvariant()",
+      "id": "scripts_make_icon_forcetaskbarvariant"
+    },
+    {
+      "label": "pageFor()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L39",
+      "community": 5,
+      "norm_label": "pagefor()",
+      "id": "scripts_make_icon_pagefor"
+    },
+    {
+      "label": "rasterizeAll()",
+      "file_type": "code",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L174",
+      "community": 5,
+      "norm_label": "rasterizeall()",
+      "id": "scripts_make_icon_rasterizeall"
     },
     {
       "label": "TopBar()",
       "file_type": "code",
       "source_file": "src/components/streaming/top-bar.tsx",
       "source_location": "L11",
-      "community": 4,
+      "community": 6,
       "norm_label": "topbar()",
       "id": "streaming_top_bar_topbar"
     },
@@ -1304,7 +1772,7 @@
       "file_type": "code",
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 2,
       "norm_label": "button.tsx",
       "id": "src_components_ui_button_tsx"
     },
@@ -1313,12 +1781,294 @@
       "file_type": "code",
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L52",
-      "community": 0,
+      "community": 2,
       "norm_label": "cn()",
       "id": "ui_button_cn"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.mjs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vite_config_mjs",
+      "target": "streaming_player_vite_config_lumencontentsecuritypolicy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_stamp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_textof"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_line"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_pushbuffer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_write"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_mirror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_emit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_info"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_warn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_error"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_rotate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_attach"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_flush"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_js",
+      "target": "electron_logger_logpath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_line",
+      "target": "electron_logger_stamp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_emit",
+      "target": "electron_logger_line"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_write",
+      "target": "electron_logger_pushbuffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_emit",
+      "target": "electron_logger_write"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_mirror",
+      "target": "electron_logger_error"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_mirror",
+      "target": "electron_logger_warn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_emit",
+      "target": "electron_logger_mirror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_info",
+      "target": "electron_logger_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_warn",
+      "target": "electron_logger_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_error",
+      "target": "electron_logger_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_attach",
+      "target": "electron_logger_rotate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/logger.js",
+      "source_location": "L101",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_logger_attach",
+      "target": "electron_logger_flush"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1328,6 +2078,16 @@
       "confidence_score": 1.0,
       "source": "electron_main_js",
       "target": "electron_main_loadenvfile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_importtmdbkey"
     },
     {
       "relation": "contains",
@@ -1413,6 +2173,66 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "electron/main.js",
+      "source_location": "L243",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_workareas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L252",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_persistwindowstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L268",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_allowcrashreload"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L275",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_onrenderergone"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L298",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_allownavigation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L318",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_blockpackagedshortcuts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
       "source_location": "L189",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1428,6 +2248,79 @@
       "confidence_score": 1.0,
       "source": "electron_main_js",
       "target": "electron_main_shutdown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L413",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_failstartup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L425",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_boot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L446",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_focusexisting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L452",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_js",
+      "target": "electron_main_bindsingleinstance"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L428",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_boot",
+      "target": "electron_main_loadenvfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L432",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_boot",
+      "target": "electron_main_importtmdbkey"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L433",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_boot",
+      "target": "electron_main_cachedir"
     },
     {
       "relation": "calls",
@@ -1461,6 +2354,83 @@
       "weight": 1.0,
       "source": "electron_main_buildentry",
       "target": "electron_metadata_lookupmovie"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L438",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_boot",
+      "target": "electron_main_registeripc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_createwindow",
+      "target": "electron_main_workareas"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L281",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_onrenderergone",
+      "target": "electron_main_allowcrashreload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L385",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_createwindow",
+      "target": "electron_main_blockpackagedshortcuts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/main.js",
+      "source_location": "L439",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_main_boot",
+      "target": "electron_main_createwindow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/main.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "source": "electron_main_createwindow",
+      "target": "electron_windowstate_resolvewindowbounds"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "electron/main.js",
+      "source_location": "L431",
+      "weight": 1.0,
+      "source": "electron_main_boot",
+      "target": "electron_store_createstore"
     },
     {
       "relation": "contains",
@@ -1982,9 +2952,9 @@
       "source_file": "electron/streamServer.test.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_test_js",
-      "target": "electron_streamserver_test_file",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_test_file"
     },
     {
       "relation": "contains",
@@ -1992,9 +2962,9 @@
       "source_file": "electron/streamServer.test.js",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "electron_streamserver_test_js",
-      "target": "electron_streamserver_test_faketorrent",
-      "confidence_score": 1.0
+      "target": "electron_streamserver_test_faketorrent"
     },
     {
       "relation": "contains",
@@ -2686,6 +3656,512 @@
       "target": "electron_transcodeserver_transcodeserver_spawn"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/windowState.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_windowstate_js",
+      "target": "electron_windowstate_asrect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/windowState.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_windowstate_js",
+      "target": "electron_windowstate_rectsintersect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/windowState.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_windowstate_js",
+      "target": "electron_windowstate_clampsize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/windowState.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_windowstate_js",
+      "target": "electron_windowstate_resolvewindowbounds"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/windowState.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_windowstate_rectsintersect",
+      "target": "electron_windowstate_asrect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "electron/windowState.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "electron_windowstate_resolvewindowbounds",
+      "target": "electron_windowstate_clampsize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_pageshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_dist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_analyze"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_asserticon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_assertsamples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_pngsize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_assertpngbuffer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_buildico"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_fit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_delay"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L157",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_capturesize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_showframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_rasterizegroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L246",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_forcetaskbarvariant"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_pagefor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L174",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_js",
+      "target": "scripts_make_icon_rasterizeall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L225",
+      "weight": 1.0,
+      "source": "scripts_make_icon_rasterizegroups",
+      "target": "scripts_make_icon_pageshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "scripts_make_icon_analyze",
+      "target": "scripts_make_icon_dist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "scripts_make_icon_assertsamples",
+      "target": "scripts_make_icon_dist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_assertpngbuffer",
+      "target": "scripts_make_icon_analyze"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L163",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_capturesize",
+      "target": "scripts_make_icon_analyze"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "scripts_make_icon_rasterizegroups",
+      "target": "scripts_make_icon_analyze",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_rasterizeall",
+      "target": "scripts_make_icon_analyze"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_assertpngbuffer",
+      "target": "scripts_make_icon_asserticon"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_capturesize",
+      "target": "scripts_make_icon_asserticon"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "scripts_make_icon_assertsamples",
+      "target": "scripts_make_icon_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "scripts_make_icon_assertpngbuffer",
+      "target": "scripts_make_icon_assertsamples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_assertpngbuffer",
+      "target": "scripts_make_icon_pngsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L256",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_main",
+      "target": "scripts_make_icon_assertpngbuffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L268",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_main",
+      "target": "scripts_make_icon_buildico"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_capturesize",
+      "target": "scripts_make_icon_fit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L161",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_capturesize",
+      "target": "scripts_make_icon_delay"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "scripts_make_icon_showframe",
+      "target": "scripts_make_icon_delay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L234",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_rasterizeall",
+      "target": "scripts_make_icon_delay"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "scripts_make_icon_rasterizegroups",
+      "target": "scripts_make_icon_capturesize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L235",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_rasterizeall",
+      "target": "scripts_make_icon_capturesize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "scripts_make_icon_rasterizegroups",
+      "target": "scripts_make_icon_showframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "scripts_make_icon_main",
+      "target": "scripts_make_icon_rasterizegroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L248",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_main",
+      "target": "scripts_make_icon_forcetaskbarvariant"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L252",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_main",
+      "target": "scripts_make_icon_rasterizeall"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3285,6 +4761,17 @@
       "target": "lib_utils_cn"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/make-icon.js",
+      "source_location": "L177",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_make_icon_rasterizeall",
+      "target": "scripts_make_icon_pagefor"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/ui/button.tsx",
@@ -3296,5 +4783,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d7d821857831ae5409f244d8d8a1e6c5257797af"
+  "built_at_commit": "fc19b9026b58833352f50e8b19cc2176e6a09e84"
 }

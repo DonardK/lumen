@@ -11,7 +11,8 @@
     "build": "vite build",
     "typecheck": "tsc --noEmit",
     "start": "electron .",
-    "dist": "pnpm build && electron-builder --config electron-builder.yml",
+    "dist": "npm run build && electron-builder --config electron-builder.yml",
+    "dist:win": "npm run build && electron-builder --config electron-builder.yml --win --x64",
     "test": "node --test electron/*.test.js",
     "test:metadata": "node --test electron/metadata.test.js",
     "test:streams": "node --test electron/streamServer.test.js"

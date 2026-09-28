@@ -1,11 +1,15 @@
 {
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\vite.config.mjs": {
-    "mtime": 1790430643.585769,
-    "hash": "4f457f05d5b97c0f9c8f6706514f28d9"
+    "mtime": 1790611569.9938643,
+    "hash": "89a6e4438e7fa84dbd510cd0d222c645"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\logger.js": {
+    "mtime": 1790611887.2862198,
+    "hash": "1beab119e5c0483e71e72a6fa2c4bbe7"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\main.js": {
-    "mtime": 1790467162.3920856,
-    "hash": "8798fdf29609ca67a07cb75ac14d2751"
+    "mtime": 1790611741.1634095,
+    "hash": "5b640c1ec663ff4acdddac7a593652b7"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\metadata.js": {
     "mtime": 1790428315.5293598,
@@ -20,8 +24,8 @@
     "hash": "95136513120020c2d08957cb0b9dcdd8"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\store.js": {
-    "mtime": 1790428331.3081858,
-    "hash": "4a2f3db1ea4fee4fe84742c6f96bb3ee"
+    "mtime": 1790611566.3332796,
+    "hash": "3e36bb357a8ef3fcc63bd45f20814289"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\streamServer.js": {
     "mtime": 1790467206.1431363,
@@ -38,6 +42,18 @@
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\transcodeServer.js": {
     "mtime": 1790467198.8194332,
     "hash": "663f10338995e8a715bd09640b11618e"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\windowState.js": {
+    "mtime": 1790611551.963312,
+    "hash": "ae3575214babced2fe0fd398f806ac22"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron\\windowState.test.js": {
+    "mtime": 1790611562.5162003,
+    "hash": "2139267a220c2ee5c48817d20de6ae84"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\scripts\\make-icon.js": {
+    "mtime": 1790612968.063056,
+    "hash": "d69e93f5543f00bbf2b4ec45853c6b38"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\src\\main.tsx": {
     "mtime": 1790430093.1760244,
@@ -120,8 +136,8 @@
     "hash": "9a4cc6f9f3155ffdc1fa7c2c097f6429"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\electron-builder.yml": {
-    "mtime": 1790428237.2296138,
-    "hash": "e9cce4c034310fa391a8d3c77c9c7f41"
+    "mtime": 1790612360.451477,
+    "hash": "e80d74368e1aff7ce7e00e50b3d03b5d"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\index.html": {
     "mtime": 1790466354.7697182,
@@ -132,24 +148,36 @@
     "hash": "b2c6c1b21db6dd095320bd4cd9bc1919"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\README.md": {
-    "mtime": 1790470893.6799772,
-    "hash": "e4b4ad35fde84a467bbe01c93b4bb21b"
+    "mtime": 1790611322.5673077,
+    "hash": "fb013afcfd96369669b27e5d5c73080a"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\release\\builder-debug.yml": {
+    "mtime": 1790611569.7551079,
+    "hash": "3b817fcb421d866a0081120385010ec6"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\release\\win-unpacked\\LICENSE.electron.txt": {
+    "mtime": 1790611438.430138,
+    "hash": "4d42118d35941e0f664dddbd83f633c5"
+  },
+  "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\release\\win-unpacked\\LICENSES.chromium.html": {
+    "mtime": 1790611438.743748,
+    "hash": "142cea93256b2b7824b854c62af026e6"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\apple-icon.png": {
-    "mtime": 1790424904.0,
-    "hash": "734ce6c878789fcd5843e8a7963e0756"
+    "mtime": 1790612975.653725,
+    "hash": "702e7f865ba87469042282d58513586c"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\icon-dark-32x32.png": {
-    "mtime": 1790424904.0,
-    "hash": "abd5ebe9e287ca0a89f4fd3da2b5cf9c"
+    "mtime": 1790612975.6567276,
+    "hash": "c6106bfc0eb53b0336b0f175b822a867"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\icon-light-32x32.png": {
-    "mtime": 1790424904.0,
-    "hash": "53426c910bcab7d3e5213cc64aa1b2c5"
+    "mtime": 1790612975.6547275,
+    "hash": "c6106bfc0eb53b0336b0f175b822a867"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\icon.svg": {
-    "mtime": 1790424904.0,
-    "hash": "6e5d88c5f7e97d26ac4ad47e703bf9de"
+    "mtime": 1790612926.2000785,
+    "hash": "bb800e9b02ba744144824fc8a7f7a6fe"
   },
   "C:\\Users\\donar\\Documents\\DesktopFolder\\CursorPrograms\\streaming-player\\public\\placeholder-logo.png": {
     "mtime": 1790424904.0,

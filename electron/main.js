@@ -1,22 +1,55 @@
 const fs = require('fs')
 const path = require('path')
-const { app, BrowserWindow, dialog, ipcMain } = require('electron')
+const { pathToFileURL } = require('url')
+const { app, BrowserWindow, dialog, ipcMain, Menu, screen } = require('electron')
+const logger = require('./logger')
 const { lookupMovie, parseTitleYear } = require('./metadata')
 const { createStore } = require('./store')
 const { TorrentManager } = require('./torrentManager')
+const { MIN_HEIGHT, MIN_WIDTH, resolveWindowBounds } = require('./windowState')
 
 const DEV_SERVER = process.env.ELECTRON_RENDERER_URL || 'http://127.0.0.1:5173'
+const CRASH_WINDOW_MS = 60000
+const CRASH_RELOAD_LIMIT = 3
 
 let mainWindow = null
 let libraryStore = null
 let manager = null
 let quitting = false
+let userClosing = false
+let pendingFocus = false
+const crashReloads = []
+let crashDialogShown = false
 
 function loadEnvFile() {
-  const candidates = [path.join(process.cwd(), '.env'), path.join(app.getAppPath(), '.env')]
+  const candidates = [path.join(process.cwd(), '.env')]
+  try {
+    candidates.push(path.join(app.getAppPath(), '.env'))
+  } catch (error) {
+    logger.error('env path failed', error)
+  }
+  try {
+    candidates.push(path.join(app.getPath('userData'), '.env'))
+  } catch (error) {
+    logger.error('env path failed', error)
+  }
+  try {
+    candidates.push(path.join(path.dirname(process.execPath), '.env'))
+  } catch (error) {
+    logger.error('env path failed', error)
+  }
+  if (process.env.PORTABLE_EXECUTABLE_DIR) {
+    candidates.push(path.join(process.env.PORTABLE_EXECUTABLE_DIR, '.env'))
+  }
   for (const file of candidates) {
-    if (!fs.existsSync(file)) continue
-    const text = fs.readFileSync(file, 'utf8')
+    let text = ''
+    try {
+      if (!file || !fs.existsSync(file)) continue
+      text = fs.readFileSync(file, 'utf8')
+    } catch (error) {
+      logger.error('env read failed', file, error)
+      continue
+    }
     for (const line of text.split(/\r?\n/)) {
       const trimmed = line.trim()
       if (!trimmed || trimmed.startsWith('#')) continue
@@ -33,6 +66,16 @@ function loadEnvFile() {
       if (!process.env[key]) process.env[key] = value
     }
   }
+}
+
+function importTmdbKey() {
+  const fromEnv = String(process.env.TMDB_API_KEY || '').trim()
+  if (!fromEnv) return
+  const settings = libraryStore.getSettings() || {}
+  const stored = String(settings.tmdbApiKey || '').trim()
+  if (stored) return
+  libraryStore.updateSettings({ tmdbApiKey: fromEnv })
+  logger.info('Imported TMDB API key into settings')
 }
 
 function cacheDir() {
@@ -199,12 +242,105 @@ function saveProgress(payload) {
   )
 }
 
+function workAreas() {
+  try {
+    return screen.getAllDisplays().map((display) => display.workArea)
+  } catch (error) {
+    logger.error('display lookup failed', error)
+    return []
+  }
+}
+
+function persistWindowState() {
+  if (!libraryStore || !mainWindow || mainWindow.isDestroyed()) return
+  try {
+    const normal = mainWindow.getNormalBounds()
+    libraryStore.saveWindowState({
+      x: normal.x,
+      y: normal.y,
+      width: normal.width,
+      height: normal.height,
+      maximized: mainWindow.isMaximized(),
+    })
+  } catch (error) {
+    logger.error('window state save failed', error)
+  }
+}
+
+function allowCrashReload(now = Date.now()) {
+  while (crashReloads.length && now - crashReloads[0] > CRASH_WINDOW_MS) crashReloads.shift()
+  if (crashReloads.length >= CRASH_RELOAD_LIMIT) return false
+  crashReloads.push(now)
+  return true
+}
+
+function onRendererGone(event, details) {
+  const reason = details && details.reason
+  const exitCode = details && details.exitCode
+  logger.error('render-process-gone', reason, exitCode)
+  if (reason === 'clean-exit' || quitting || userClosing) return
+  const contents = event && event.sender
+  if (!contents || contents.isDestroyed()) return
+  if (!allowCrashReload()) {
+    if (crashDialogShown) return
+    crashDialogShown = true
+    dialog.showErrorBox(
+      'Lumen',
+      `The window crashed repeatedly (${reason || 'unknown'}).\n\nLog: ${logger.logPath()}`,
+    )
+    return
+  }
+  crashDialogShown = false
+  try {
+    contents.reload()
+  } catch (error) {
+    logger.error('reload failed', error)
+  }
+}
+
+function allowNavigation(target) {
+  if (!app.isPackaged) {
+    try {
+      const devOrigin = new URL(DEV_SERVER).origin
+      if (target.startsWith(devOrigin)) return true
+    } catch (error) {
+      logger.error('dev origin failed', error)
+    }
+    return target.startsWith('file://')
+  }
+  try {
+    const allowed = pathToFileURL(path.resolve(__dirname, '../dist/index.html')).href
+    if (process.platform === 'win32') return target.toLowerCase() === allowed.toLowerCase()
+    return target === allowed
+  } catch (error) {
+    logger.error('navigation check failed', error)
+    return false
+  }
+}
+
+function blockPackagedShortcuts() {
+  mainWindow.webContents.on('before-input-event', (event, input) => {
+    if (!app.isPackaged || input.type !== 'keyDown') return
+    const key = String(input.key || '').toLowerCase()
+    const accel = input.control || input.meta
+    const reload = key === 'f5' || (accel && key === 'r')
+    const devtools = key === 'f12' || (accel && input.shift && key === 'i')
+    if (reload || devtools) event.preventDefault()
+  })
+}
+
 function createWindow() {
-  mainWindow = new BrowserWindow({
-    width: 1280,
-    height: 840,
-    minWidth: 880,
-    minHeight: 640,
+  crashReloads.length = 0
+  crashDialogShown = false
+  userClosing = false
+  const saved = libraryStore.getWindowState()
+  const bounds = resolveWindowBounds(saved, workAreas())
+  const options = {
+    width: bounds.width,
+    height: bounds.height,
+    minWidth: MIN_WIDTH,
+    minHeight: MIN_HEIGHT,
+    show: false,
     backgroundColor: '#11131c',
     autoHideMenuBar: true,
     title: 'Lumen',
@@ -214,20 +350,52 @@ function createWindow() {
       nodeIntegration: false,
       sandbox: true,
       webSecurity: true,
+      devTools: !app.isPackaged,
     },
+  }
+  if (!app.isPackaged) options.icon = path.join(__dirname, '../build/icon.ico')
+  if (Number.isFinite(bounds.x) && Number.isFinite(bounds.y)) {
+    options.x = bounds.x
+    options.y = bounds.y
+  }
+  mainWindow = new BrowserWindow(options)
+  if (bounds.maximized) mainWindow.maximize()
+  mainWindow.once('ready-to-show', () => {
+    if (!mainWindow || mainWindow.isDestroyed()) return
+    mainWindow.show()
+    if (!pendingFocus) return
+    pendingFocus = false
+    mainWindow.focus()
+  })
+  mainWindow.on('close', () => {
+    userClosing = true
+    persistWindowState()
+  })
+  mainWindow.on('unresponsive', () => {
+    logger.warn('window unresponsive')
+  })
+  mainWindow.on('responsive', () => {
+    logger.info('window responsive')
   })
 
   mainWindow.webContents.setWindowOpenHandler(() => ({ action: 'deny' }))
   mainWindow.webContents.on('will-navigate', (event, url) => {
-    const devOrigin = new URL(DEV_SERVER).origin
-    if (!app.isPackaged && url.startsWith(devOrigin)) return
-    if (url.startsWith('file://')) return
+    if (allowNavigation(url)) return
     event.preventDefault()
+    logger.warn('blocked navigation', url)
   })
+  mainWindow.webContents.on('render-process-gone', onRendererGone)
+  mainWindow.webContents.on('did-fail-load', (_event, code, description, url, isMainFrame) => {
+    if (!isMainFrame) return
+    logger.error('did-fail-load', code, description, url)
+    if (!mainWindow || mainWindow.isDestroyed() || mainWindow.isVisible()) return
+    mainWindow.show()
+  })
+  blockPackagedShortcuts()
 
   if (!app.isPackaged) {
     mainWindow.webContents.on('console-message', (event) => {
-      if (event.level >= 2) console.log(`[renderer] ${event.message}`)
+      if (event.level >= 2) logger.info(`[renderer] ${event.message}`)
     })
     mainWindow.webContents.on('did-finish-load', () => {
       mainWindow.webContents
@@ -235,9 +403,9 @@ function createWindow() {
           'Boolean(window.api && typeof window.api.addTorrent === "function" && typeof window.api.selectFile === "function")',
         )
         .then((ready) => {
-          console.log(`[lumen] preload bridge ${ready ? 'ready' : 'missing'}`)
+          logger.info(`[lumen] preload bridge ${ready ? 'ready' : 'missing'}`)
         })
-        .catch((error) => console.error('[lumen] bridge check failed', error))
+        .catch((error) => logger.error('[lumen] bridge check failed', error))
     })
     mainWindow.loadURL(DEV_SERVER)
   } else {
@@ -251,11 +419,26 @@ async function shutdown() {
   if (manager) await manager.shutdown({ library, keepCache })
 }
 
-app.whenReady().then(() => {
+function failStartup(error) {
+  logger.error('startup failed', error)
+  const message = error instanceof Error ? error.stack || error.message : String(error)
+  try {
+    dialog.showErrorBox('Lumen could not start', `${message}\n\nLog: ${logger.logPath()}`)
+  } catch (dialogError) {
+    logger.error('error dialog failed', dialogError)
+  }
+  logger.flush()
+  app.exit(1)
+}
+
+function boot() {
+  logger.attach(app)
+  if (app.isPackaged) Menu.setApplicationMenu(null)
   loadEnvFile()
   const defaultCache = path.join(app.getPath('userData'), 'torrent-cache')
   fs.mkdirSync(defaultCache, { recursive: true })
   libraryStore = createStore(defaultCache)
+  importTmdbKey()
   fs.mkdirSync(cacheDir(), { recursive: true })
   manager = new TorrentManager({
     getCacheDir: cacheDir,
@@ -263,23 +446,69 @@ app.whenReady().then(() => {
   })
   registerIpc()
   createWindow()
-
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
-})
+  logger.info('Lumen started')
+}
 
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit()
-})
+function focusExisting() {
+  if (!mainWindow || mainWindow.isDestroyed()) {
+    pendingFocus = true
+    return
+  }
+  if (mainWindow.isMinimized()) mainWindow.restore()
+  mainWindow.focus()
+}
 
-app.on('before-quit', (event) => {
-  if (quitting) return
-  event.preventDefault()
-  quitting = true
-  const force = setTimeout(() => app.exit(0), 8000)
-  shutdown().finally(() => {
-    clearTimeout(force)
-    app.exit(0)
+function bindSingleInstance() {
+  app.on('second-instance', focusExisting)
+
+  app.whenReady()
+    .then(() => {
+      boot()
+    })
+    .catch((error) => {
+      failStartup(error)
+    })
+
+  app.on('window-all-closed', () => {
+    if (process.platform !== 'darwin') app.quit()
   })
+
+  app.on('before-quit', (event) => {
+    if (quitting) return
+    event.preventDefault()
+    quitting = true
+    persistWindowState()
+    const force = setTimeout(() => {
+      logger.flush()
+      app.exit(0)
+    }, 8000)
+    shutdown()
+      .catch((error) => {
+        logger.error('shutdown failed', error)
+      })
+      .finally(() => {
+        clearTimeout(force)
+        logger.flush()
+        app.exit(0)
+      })
+  })
+}
+
+if (process.platform === 'win32') app.setAppUserModelId('com.lumen.player')
+
+process.on('uncaughtException', (error) => {
+  logger.error('uncaughtException', error)
 })
+
+process.on('unhandledRejection', (reason) => {
+  logger.error('unhandledRejection', reason)
+})
+
+if (!app.requestSingleInstanceLock()) {
+  app.quit()
+} else {
+  bindSingleInstance()
+}

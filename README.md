@@ -25,6 +25,21 @@ pnpm dist              # packaged installer for your OS
 
 `pnpm dev` starts Vite on `127.0.0.1:5173` and launches Electron against it. Packaged builds land in `release/`.
 
+## Install it for real (Windows)
+
+```bash
+npm run dist:win
+```
+
+That builds the app and writes two files into `release/`:
+
+- `release\Lumen-0.1.0-setup.exe` — installer. Adds a desktop shortcut and a Start menu shortcut.
+- `release\Lumen-0.1.0-portable.exe` — no install. Run the exe directly.
+
+Windows SmartScreen will say **Windows protected your PC**. That is expected, because the build is unsigned. Choose **More info**, then **Run anyway**.
+
+Settings and the library live in `%APPDATA%\lumen`. Torrent pieces live in the cache folder chosen in Settings. A TMDB key can be set in Settings. A `.env` key is also imported automatically when running from source.
+
 ## Scripts
 
 | Script | Description |
